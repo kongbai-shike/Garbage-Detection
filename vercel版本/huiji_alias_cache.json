@@ -1,0 +1,3967 @@
+{
+  "updated_at": "2026-03-22T12:39:55.943066+00:00",
+  "mappings": {
+    "ack & brunt": [
+      "認知&衝擊",
+      "认知&冲击"
+    ],
+    "akjagara prime": [
+      "覺醒雙槍Prime",
+      "觉醒双枪Prime"
+    ],
+    "觉醒双枪 prime": [
+      "覺醒雙槍Prime",
+      "觉醒双枪Prime"
+    ],
+    "覺醒雙槍 prime": [
+      "覺醒雙槍Prime",
+      "觉醒双枪Prime"
+    ],
+    "dual cestra": [
+      "錫斯特雙槍",
+      "锡斯特双枪"
+    ],
+    "dual cleavers": [
+      "斩肉双刀",
+      "斬肉雙刀"
+    ],
+    "dual ether": [
+      "苍穹双剑",
+      "蒼穹雙劍"
+    ],
+    "dual heat swords": [
+      "烈焰双剑",
+      "烈焰雙劍"
+    ],
+    "dual ichor": [
+      "恶脓双斧",
+      "惡膿雙斧"
+    ],
+    "dual kamas": [
+      "双短柄战镰",
+      "雙短柄戰鐮"
+    ],
+    "dual kamas prime": [
+      "双短柄战镰Prime",
+      "雙短柄戰鐮Prime"
+    ],
+    "双短柄战镰 prime": [
+      "双短柄战镰Prime",
+      "雙短柄戰鐮Prime"
+    ],
+    "雙短柄戰鐮 prime": [
+      "双短柄战镰Prime",
+      "雙短柄戰鐮Prime"
+    ],
+    "dual keres": [
+      "凯瑞斯双刀",
+      "凱瑞斯雙刀"
+    ],
+    "dual raza": [
+      "鋒月雙斧",
+      "锋月双斧"
+    ],
+    "aklato": [
+      "拉托双枪",
+      "拉托雙槍"
+    ],
+    "dual skana": [
+      "空刃双刀",
+      "空刃雙刀"
+    ],
+    "dual toxocyst": [
+      "毒囊双枪",
+      "毒囊雙槍"
+    ],
+    "dual zoren": [
+      "佐伦双斧",
+      "佐倫雙斧"
+    ],
+    "embolist": [
+      "安柏勒斯"
+    ],
+    "endura": [
+      "三叶坚韧",
+      "三葉堅韌"
+    ],
+    "ether daggers": [
+      "苍穹匕首",
+      "蒼穹匕首"
+    ],
+    "ether reaper": [
+      "苍穹死神",
+      "蒼穹死神"
+    ],
+    "ether sword": [
+      "苍穹之剑",
+      "蒼穹之劍"
+    ],
+    "euphona prime": [
+      "悅音Prime",
+      "悦音Prime"
+    ],
+    "悦音 prime": [
+      "悅音Prime",
+      "悦音Prime"
+    ],
+    "悅音 prime": [
+      "悅音Prime",
+      "悦音Prime"
+    ],
+    "exergis": [
+      "晶能放射器",
+      "结晶器"
+    ],
+    "aklex": [
+      "雷克斯双枪",
+      "雷克斯雙槍"
+    ],
+    "falcor": [
+      "猎鹰轮",
+      "獵鷹輪"
+    ],
+    "fang": [
+      "狼牙"
+    ],
+    "fang prime": [
+      "狼牙Prime"
+    ],
+    "狼牙 prime": [
+      "狼牙Prime"
+    ],
+    "ferrox": [
+      "鐵晶磁軌炮",
+      "铁晶磁轨炮"
+    ],
+    "flux rifle": [
+      "通量射線步槍",
+      "通量射线步枪"
+    ],
+    "fragor": [
+      "重击巨锤",
+      "重擊巨鎚"
+    ],
+    "fragor prime": [
+      "重击巨锤Prime",
+      "重擊巨鎚Prime"
+    ],
+    "重击巨锤 prime": [
+      "重击巨锤Prime",
+      "重擊巨鎚Prime"
+    ],
+    "重擊巨鎚 prime": [
+      "重击巨锤Prime",
+      "重擊巨鎚Prime"
+    ],
+    "furax": [
+      "弗拉克斯"
+    ],
+    "furax wraith": [
+      "弗拉克斯亡魂"
+    ],
+    "aklex prime": [
+      "雷克斯双枪Prime",
+      "雷克斯雙槍Prime"
+    ],
+    "雷克斯双枪 prime": [
+      "雷克斯双枪Prime",
+      "雷克斯雙槍Prime"
+    ],
+    "雷克斯雙槍 prime": [
+      "雷克斯双枪Prime",
+      "雷克斯雙槍Prime"
+    ],
+    "fusilai": [
+      "齊射玻刃",
+      "齐射玻刃"
+    ],
+    "galatine": [
+      "迦伦提恩",
+      "迦倫提恩"
+    ],
+    "galatine prime": [
+      "迦伦提恩Prime",
+      "迦倫提恩Prime"
+    ],
+    "迦伦提恩 prime": [
+      "迦伦提恩Prime",
+      "迦倫提恩Prime"
+    ],
+    "迦倫提恩 prime": [
+      "迦伦提恩Prime",
+      "迦倫提恩Prime"
+    ],
+    "galvacord": [
+      "电流刺索",
+      "電流刺索"
+    ],
+    "gammacor": [
+      "咖玛手臂壳",
+      "咖瑪腕甲槍"
+    ],
+    "gazal machete": [
+      "加扎勒反曲刀"
+    ],
+    "glaive": [
+      "战刃",
+      "戰刃"
+    ],
+    "glaive prime": [
+      "战刃Prime",
+      "戰刃Prime"
+    ],
+    "战刃 prime": [
+      "战刃Prime",
+      "戰刃Prime"
+    ],
+    "戰刃 prime": [
+      "战刃Prime",
+      "戰刃Prime"
+    ],
+    "glaxion": [
+      "冷冻光束步枪",
+      "冷凍光束步槍"
+    ],
+    "gorgon": [
+      "蛇发女妖",
+      "蛇髮女妖"
+    ],
+    "akmagnus": [
+      "麥格努斯雙槍",
+      "麦格努斯双枪"
+    ],
+    "gorgon wraith": [
+      "蛇发女妖亡魂",
+      "蛇髮女妖亡魂"
+    ],
+    "grakata": [
+      "葛拉卡达",
+      "葛拉卡達"
+    ],
+    "gram": [
+      "格拉姆"
+    ],
+    "gram prime": [
+      "格拉姆Prime"
+    ],
+    "格拉姆 prime": [
+      "格拉姆Prime"
+    ],
+    "grinlok": [
+      "葛恩火枪",
+      "葛恩火槍"
+    ],
+    "guandao": [
+      "关刀",
+      "關刀"
+    ],
+    "gunsen": [
+      "军扇",
+      "軍扇"
+    ],
+    "halikar": [
+      "哈利卡"
+    ],
+    "harpak": [
+      "哈帕克"
+    ],
+    "aksomati": [
+      "輕靈月神雙槍",
+      "轻灵月神双枪"
+    ],
+    "heat dagger": [
+      "烈焰匕首",
+      "烈焰短剑"
+    ],
+    "heat sword": [
+      "烈焰長劍",
+      "烈焰长剑"
+    ],
+    "heliocor": [
+      "赫利俄光錘",
+      "赫利俄光锤"
+    ],
+    "helios": [
+      "赫利俄斯"
+    ],
+    "helios prime": [
+      "赫利俄斯Prime"
+    ],
+    "赫利俄斯 prime": [
+      "赫利俄斯Prime"
+    ],
+    "hema": [
+      "血肢"
+    ],
+    "hikou": [
+      "飛揚",
+      "飞扬"
+    ],
+    "hikou prime": [
+      "飛揚Prime",
+      "飞扬Prime"
+    ],
+    "飞扬 prime": [
+      "飛揚Prime",
+      "飞扬Prime"
+    ],
+    "飛揚 prime": [
+      "飛揚Prime",
+      "飞扬Prime"
+    ],
+    "hind": [
+      "母鹿",
+      "雌鹿"
+    ],
+    "akstiletto": [
+      "史提托双枪",
+      "史提托雙槍"
+    ],
+    "hirudo": [
+      "蚂蟥",
+      "螞蟥"
+    ],
+    "hystrix": [
+      "豪猪",
+      "豪豬"
+    ],
+    "ignis": [
+      "伊格尼斯"
+    ],
+    "ignis wraith": [
+      "伊格尼斯亡魂"
+    ],
+    "jat kittag": [
+      "喷射战锤",
+      "噴射戰鎚"
+    ],
+    "jat kusar": [
+      "喷射锁镰",
+      "噴射鎖鐮"
+    ],
+    "javlok": [
+      "燃焰标枪",
+      "燃焰標槍"
+    ],
+    "jaw sword": [
+      "蛇顎刀",
+      "蛇颚刀"
+    ],
+    "akstiletto prime": [
+      "史提托双枪Prime",
+      "史提托雙槍Prime"
+    ],
+    "史提托双枪 prime": [
+      "史提托双枪Prime",
+      "史提托雙槍Prime"
+    ],
+    "史提托雙槍 prime": [
+      "史提托双枪Prime",
+      "史提托雙槍Prime"
+    ],
+    "kama": [
+      "短柄战镰",
+      "短柄戰鐮"
+    ],
+    "karak": [
+      "卡拉克"
+    ],
+    "karak wraith": [
+      "卡拉克亡魂"
+    ],
+    "karyst": [
+      "凯洛斯特",
+      "凱洛斯特"
+    ],
+    "kesheg": [
+      "怯薛"
+    ],
+    "kestrel": [
+      "紅隼",
+      "红隼"
+    ],
+    "knell": [
+      "丧钟",
+      "喪鐘"
+    ],
+    "kogake": [
+      "科加基"
+    ],
+    "akvasto": [
+      "瓦斯托双枪",
+      "瓦斯托雙槍"
+    ],
+    "kogake prime": [
+      "科加基Prime"
+    ],
+    "科加基 prime": [
+      "科加基Prime"
+    ],
+    "kohm": [
+      "寇恩热能枪",
+      "寇恩熱能槍"
+    ],
+    "kohmak": [
+      "寇恩霰机枪",
+      "寇恩霰機槍"
+    ],
+    "korrudo": [
+      "库鲁多",
+      "庫魯多"
+    ],
+    "kraken": [
+      "北海巨人",
+      "北海巨妖"
+    ],
+    "kreska": [
+      "克雷斯卡",
+      "直镐"
+    ],
+    "kronen": [
+      "皇家拐刃"
+    ],
+    "kronen prime": [
+      "皇家拐刃Prime"
+    ],
+    "皇家拐刃 prime": [
+      "皇家拐刃Prime"
+    ],
+    "kulstar": [
+      "杀星",
+      "殺星"
+    ],
+    "kunai": [
+      "苦无",
+      "苦無"
+    ],
+    "akvasto prime": [
+      "瓦斯托双枪Prime",
+      "瓦斯托雙槍Prime"
+    ],
+    "瓦斯托双枪 prime": [
+      "瓦斯托双枪Prime",
+      "瓦斯托雙槍Prime"
+    ],
+    "瓦斯托雙槍 prime": [
+      "瓦斯托双枪Prime",
+      "瓦斯托雙槍Prime"
+    ],
+    "lacera": [
+      "悲痛之刃"
+    ],
+    "lanka": [
+      "兰卡",
+      "蘭卡"
+    ],
+    "laser rifle": [
+      "激光步枪",
+      "雷射步槍"
+    ],
+    "lato": [
+      "拉托"
+    ],
+    "lato prime": [
+      "拉托Prime"
+    ],
+    "拉托 prime": [
+      "拉托Prime"
+    ],
+    "lato vandal": [
+      "拉托破坏者",
+      "拉托破壞者"
+    ],
+    "latron": [
+      "拉特昂"
+    ],
+    "latron prime": [
+      "拉特昂Prime"
+    ],
+    "拉特昂 prime": [
+      "拉特昂Prime"
+    ],
+    "latron wraith": [
+      "拉特昂亡魂"
+    ],
+    "acrid": [
+      "阿克里德"
+    ],
+    "akzani": [
+      "荒謬雙槍",
+      "荒谬双枪"
+    ],
+    "lecta": [
+      "勒克塔"
+    ],
+    "lenz": [
+      "冷次弓",
+      "楞次弓"
+    ],
+    "lesion": [
+      "病变",
+      "病變"
+    ],
+    "lex prime": [
+      "雷克斯Prime"
+    ],
+    "雷克斯 prime": [
+      "雷克斯Prime"
+    ],
+    "machete": [
+      "馬謝特砍刀",
+      "马谢特砍刀"
+    ],
+    "machete wraith": [
+      "馬謝特砍刀亡魂",
+      "马谢特砍刀亡魂"
+    ],
+    "magistar": [
+      "執法者",
+      "执法者"
+    ],
+    "magnus": [
+      "麥格努斯",
+      "麦格努斯"
+    ],
+    "marelok": [
+      "玛瑞火枪",
+      "瑪瑞火槍"
+    ],
+    "amphis": [
+      "双头蛇",
+      "雙頭蛇"
+    ],
+    "mios": [
+      "牝狮神",
+      "牡獅神"
+    ],
+    "mire": [
+      "米尔",
+      "米爾"
+    ],
+    "miter": [
+      "米特尔",
+      "米特爾"
+    ],
+    "mk1-bo": [
+      "MK1-玻之武杖"
+    ],
+    "mk1-braton": [
+      "MK1-布莱顿",
+      "MK1-布萊頓"
+    ],
+    "mk1-furax": [
+      "MK1-弗拉克斯"
+    ],
+    "mk1-furis": [
+      "MK1-盗贼",
+      "MK1-盜賊"
+    ],
+    "mk1-kunai": [
+      "MK1-苦无",
+      "MK1-苦無"
+    ],
+    "mk1-paris": [
+      "MK1-帕里斯"
+    ],
+    "mk1-strun": [
+      "MK1-斯特朗"
+    ],
+    "amprex": [
+      "安培克斯"
+    ],
+    "mutalist cernos": [
+      "异融西诺斯",
+      "異融西諾斯"
+    ],
+    "mutalist quanta": [
+      "异融量子枪",
+      "異融量子槍"
+    ],
+    "nagantaka": [
+      "噬蛇弩",
+      "蛇"
+    ],
+    "nami skyla": [
+      "海波斯库拉对剑",
+      "海波斯庫拉對劍"
+    ],
+    "nami skyla prime": [
+      "海波斯库拉对剑Prime",
+      "海波斯庫拉對劍Prime"
+    ],
+    "海波斯库拉对剑 prime": [
+      "海波斯库拉对剑Prime",
+      "海波斯庫拉對劍Prime"
+    ],
+    "海波斯庫拉對劍 prime": [
+      "海波斯库拉对剑Prime",
+      "海波斯庫拉對劍Prime"
+    ],
+    "nami solo": [
+      "海波单剑",
+      "海波單劍"
+    ],
+    "nikana": [
+      "侍刃"
+    ],
+    "nikana prime": [
+      "侍刃Prime"
+    ],
+    "侍刃 prime": [
+      "侍刃Prime"
+    ],
+    "ninkondi": [
+      "降灵追猎者",
+      "降靈追獵者"
+    ],
+    "ninkondi prime": [
+      "降灵追猎者Prime",
+      "降靈追獵者"
+    ],
+    "降灵追猎者 prime": [
+      "降灵追猎者Prime",
+      "降靈追獵者"
+    ],
+    "angstrum": [
+      "安格斯壮",
+      "安格斯壯"
+    ],
+    "nukor": [
+      "努寇微波枪",
+      "努寇微波槍"
+    ],
+    "obex": [
+      "奥比克斯",
+      "奧比克斯"
+    ],
+    "ocucor": [
+      "視使之觸",
+      "视使之触"
+    ],
+    "ogris": [
+      "食人女魔"
+    ],
+    "ohma": [
+      "欧玛",
+      "歐瑪"
+    ],
+    "opticor": [
+      "奥堤克光子枪",
+      "奧堤克光子槍"
+    ],
+    "opticor vandal": [
+      "奥堤克光子枪破坏者",
+      "奧堤克光子槍破壞者"
+    ],
+    "orthos": [
+      "欧特鲁斯",
+      "歐特魯斯"
+    ],
+    "orthos prime": [
+      "欧特鲁斯Prime",
+      "歐特魯斯Prime"
+    ],
+    "欧特鲁斯 prime": [
+      "欧特鲁斯Prime",
+      "歐特魯斯Prime"
+    ],
+    "歐特魯斯 prime": [
+      "欧特鲁斯Prime",
+      "歐特魯斯Prime"
+    ],
+    "anku": [
+      "夺魂死神",
+      "奪魂死神"
+    ],
+    "pandero": [
+      "手鼓"
+    ],
+    "pangolin sword": [
+      "鯪鯉劍",
+      "鲮鲤剑"
+    ],
+    "panthera": [
+      "猎豹",
+      "獵豹"
+    ],
+    "paracesis": [
+      "心智之歿",
+      "心智之殁"
+    ],
+    "paracyst": [
+      "附肢寄生者"
+    ],
+    "paris": [
+      "帕里斯"
+    ],
+    "paris prime": [
+      "帕里斯Prime"
+    ],
+    "帕里斯 prime": [
+      "帕里斯Prime"
+    ],
+    "penta": [
+      "潘塔"
+    ],
+    "phage": [
+      "噬菌者"
+    ],
+    "ankyros": [
+      "甲龍雙拳",
+      "甲龙双拳"
+    ],
+    "phantasma": [
+      "幻离子",
+      "幻離子"
+    ],
+    "plasma sword": [
+      "等离子长剑",
+      "電漿長劍"
+    ],
+    "plinx": [
+      "漫射者"
+    ],
+    "prime laser rifle": [
+      "激光步枪Prime",
+      "雷射步槍Prime"
+    ],
+    "激光步枪 prime": [
+      "激光步枪Prime",
+      "雷射步槍Prime"
+    ],
+    "雷射步槍 prime": [
+      "激光步枪Prime",
+      "雷射步槍Prime"
+    ],
+    "prisma burst laser": [
+      "棱晶激光点发",
+      "棱晶雷射點發"
+    ],
+    "prisma dual cleavers": [
+      "棱晶斩肉双刀",
+      "棱晶斬肉雙刀"
+    ],
+    "prisma gorgon": [
+      "棱晶蛇发女妖",
+      "棱晶蛇髮女妖"
+    ],
+    "prisma grakata": [
+      "棱晶葛拉卡达",
+      "棱晶葛拉卡達"
+    ],
+    "prisma obex": [
+      "棱晶奥比克斯",
+      "棱晶奧比克斯"
+    ],
+    "ankyros prime": [
+      "甲龍雙拳Prime",
+      "甲龙双拳Prime"
+    ],
+    "甲龙双拳 prime": [
+      "甲龍雙拳Prime",
+      "甲龙双拳Prime"
+    ],
+    "甲龍雙拳 prime": [
+      "甲龍雙拳Prime",
+      "甲龙双拳Prime"
+    ],
+    "prisma shade": [
+      "棱晶阴影",
+      "棱晶陰影"
+    ],
+    "prisma skana": [
+      "棱晶空刃"
+    ],
+    "prisma tetra": [
+      "棱晶特拉"
+    ],
+    "prova": [
+      "普罗沃",
+      "普羅沃"
+    ],
+    "prova vandal": [
+      "普罗沃破坏者",
+      "普羅沃破壞者"
+    ],
+    "pupacyst": [
+      "毒囊骨繭",
+      "毒囊骨茧"
+    ],
+    "pyrana": [
+      "食人魚",
+      "食人鱼"
+    ],
+    "pyrana prime": [
+      "食人魚Prime",
+      "食人鱼Prime"
+    ],
+    "食人鱼 prime": [
+      "食人魚Prime",
+      "食人鱼Prime"
+    ],
+    "食人魚 prime": [
+      "食人魚Prime",
+      "食人鱼Prime"
+    ],
+    "quanta": [
+      "量子切割器"
+    ],
+    "arca titron": [
+      "弧电振子锤",
+      "弧電振子錘"
+    ],
+    "quartakk": [
+      "夸塔克",
+      "誇塔克"
+    ],
+    "rakta ballistica": [
+      "緋紅布里斯提卡",
+      "绯红布里斯提卡"
+    ],
+    "rakta cernos": [
+      "緋紅西諾斯",
+      "绯红西诺斯"
+    ],
+    "rakta dark dagger": [
+      "緋紅暗黑匕首",
+      "绯红暗黑匕首"
+    ],
+    "reaper prime": [
+      "收割者Prime"
+    ],
+    "收割者 prime": [
+      "收割者Prime"
+    ],
+    "redeemer": [
+      "救贖者",
+      "救赎者"
+    ],
+    "redeemer prime": [
+      "救贖者Prime",
+      "救赎者Prime"
+    ],
+    "救赎者 prime": [
+      "救贖者Prime",
+      "救赎者Prime"
+    ],
+    "救贖者 prime": [
+      "救贖者Prime",
+      "救赎者Prime"
+    ],
+    "ripkas": [
+      "鋭卡斯",
+      "锐卡斯"
+    ],
+    "rubico": [
+      "絕路",
+      "绝路"
+    ],
+    "arcata": [
+      "阿卡塔"
+    ],
+    "rubico prime": [
+      "絕路Prime",
+      "绝路Prime"
+    ],
+    "绝路 prime": [
+      "絕路Prime",
+      "绝路Prime"
+    ],
+    "絕路 prime": [
+      "絕路Prime",
+      "绝路Prime"
+    ],
+    "sancti castanas": [
+      "圣洁雷爆信标",
+      "聖潔雷爆信標"
+    ],
+    "sancti magistar": [
+      "圣洁执法者",
+      "聖潔執法者"
+    ],
+    "sancti tigris": [
+      "圣洁猛虎",
+      "聖潔猛虎"
+    ],
+    "sarpa": [
+      "蛇刃"
+    ],
+    "scindo": [
+      "分裂斩斧",
+      "分裂斬斧"
+    ],
+    "scindo prime": [
+      "分裂斩斧Prime",
+      "分裂斬斧Prime"
+    ],
+    "分裂斩斧 prime": [
+      "分裂斩斧Prime",
+      "分裂斬斧Prime"
+    ],
+    "分裂斬斧 prime": [
+      "分裂斩斧Prime",
+      "分裂斬斧Prime"
+    ],
+    "scoliac": [
+      "嵴椎节鞭",
+      "脊椎節鞭"
+    ],
+    "scourge": [
+      "祸根",
+      "禍根"
+    ],
+    "secura dual cestra": [
+      "保障錫斯特雙槍",
+      "保障锡斯特双枪"
+    ],
+    "argonak": [
+      "氩格纳克",
+      "氬格納克"
+    ],
+    "secura lecta": [
+      "保障勒克塔"
+    ],
+    "secura penta": [
+      "保障潘塔"
+    ],
+    "seer": [
+      "預言者",
+      "预言者"
+    ],
+    "serro": [
+      "电能斩锯",
+      "電能斬鋸"
+    ],
+    "shaku": [
+      "双节尺棍",
+      "雙節尺棍"
+    ],
+    "sheev": [
+      "希芙"
+    ],
+    "sibear": [
+      "西伯利亚冰锤",
+      "西伯利亞冰鎚"
+    ],
+    "sicarus": [
+      "暗杀者",
+      "暗殺者"
+    ],
+    "sicarus prime": [
+      "暗杀者Prime",
+      "暗殺者Prime"
+    ],
+    "暗杀者 prime": [
+      "暗杀者Prime",
+      "暗殺者Prime"
+    ],
+    "暗殺者 prime": [
+      "暗杀者Prime",
+      "暗殺者Prime"
+    ],
+    "sigma & octantis": [
+      "西格玛&南极座",
+      "西格瑪&南極座"
+    ],
+    "afuris": [
+      "盗贼双枪",
+      "盜賊雙槍"
+    ],
+    "artax": [
+      "阿塔克斯"
+    ],
+    "silva& aegis prime": [
+      "席瓦&神盾Prime"
+    ],
+    "席瓦&神盾 prime": [
+      "席瓦&神盾Prime"
+    ],
+    "silva&aegis": [
+      "席瓦&神盾"
+    ],
+    "simulor": [
+      "重力奇点拟成枪",
+      "重力奇點擬成槍"
+    ],
+    "skana": [
+      "空刃"
+    ],
+    "skana prime": [
+      "空刃Prime"
+    ],
+    "空刃 prime": [
+      "空刃Prime"
+    ],
+    "skiajati": [
+      "影生"
+    ],
+    "snipetron": [
+      "狙击特昂",
+      "狙擊特昂"
+    ],
+    "snipetron vandal": [
+      "狙击特昂破坏者",
+      "狙擊特昂破壞者"
+    ],
+    "sobek": [
+      "鱷神",
+      "鳄神"
+    ],
+    "soma": [
+      "月神"
+    ],
+    "artemis bow": [
+      "月神狩弓"
+    ],
+    "soma prime": [
+      "月神Prime"
+    ],
+    "月神 prime": [
+      "月神Prime"
+    ],
+    "sonicor": [
+      "超音波冲击枪",
+      "超音波衝擊槍"
+    ],
+    "spectra": [
+      "光譜切割器",
+      "光谱切割器"
+    ],
+    "spira": [
+      "旋刃飛刀",
+      "旋刃飞刀"
+    ],
+    "spira prime": [
+      "旋刃飛刀Prime",
+      "旋刃飞刀Prime"
+    ],
+    "旋刃飞刀 prime": [
+      "旋刃飛刀Prime",
+      "旋刃飞刀Prime"
+    ],
+    "旋刃飛刀 prime": [
+      "旋刃飛刀Prime",
+      "旋刃飞刀Prime"
+    ],
+    "staticor": [
+      "静电能量导引枪",
+      "靜電能量導引槍"
+    ],
+    "stinger": [
+      "毒刺"
+    ],
+    "stradavar prime": [
+      "斯特拉迪瓦Prime"
+    ],
+    "斯特拉迪瓦 prime": [
+      "斯特拉迪瓦Prime"
+    ],
+    "strun": [
+      "斯特朗"
+    ],
+    "strun wraith": [
+      "斯特朗亡魂"
+    ],
+    "astilla": [
+      "碎裂者"
+    ],
+    "stubba": [
+      "史度巴"
+    ],
+    "stug": [
+      "史特克"
+    ],
+    "supra": [
+      "苏普拉",
+      "蘇普拉"
+    ],
+    "supra vandal": [
+      "苏普拉破坏者",
+      "蘇普拉破壞者"
+    ],
+    "sweeper": [
+      "扫除者",
+      "掃除者"
+    ],
+    "sweeper prime": [
+      "扫除者Prime",
+      "掃除者Prime"
+    ],
+    "扫除者 prime": [
+      "扫除者Prime",
+      "掃除者Prime"
+    ],
+    "掃除者 prime": [
+      "扫除者Prime",
+      "掃除者Prime"
+    ],
+    "sybaris": [
+      "席芭莉丝",
+      "席芭莉絲"
+    ],
+    "sybaris prime": [
+      "席芭莉丝Prime",
+      "席芭莉絲Prime"
+    ],
+    "席芭莉丝 prime": [
+      "席芭莉丝Prime",
+      "席芭莉絲Prime"
+    ],
+    "席芭莉絲 prime": [
+      "席芭莉丝Prime",
+      "席芭莉絲Prime"
+    ],
+    "sydon": [
+      "恶龙",
+      "惡龍"
+    ],
+    "synapse": [
+      "突触生化枪",
+      "突觸生化槍"
+    ],
+    "atomos": [
+      "原子矿融炮",
+      "原子礦融砲"
+    ],
+    "synoid gammacor": [
+      "枢议咖玛腕甲枪",
+      "樞議咖瑪腕甲槍"
+    ],
+    "synoid heliocor": [
+      "枢议赫利俄光锤",
+      "樞議赫利俄光錘"
+    ],
+    "synoid simulor": [
+      "枢议重力奇点拟成枪",
+      "樞議重力奇點擬成槍"
+    ],
+    "tatsu": [
+      "龍辰",
+      "龙辰"
+    ],
+    "taxon": [
+      "塔克桑"
+    ],
+    "tekko": [
+      "鐵鉤手甲",
+      "铁钩手甲"
+    ],
+    "telos akbolto": [
+      "終極螺釘雙槍",
+      "终极螺钉双枪"
+    ],
+    "tenora": [
+      "双簧管",
+      "雙簧管"
+    ],
+    "tetra": [
+      "特拉"
+    ],
+    "tiberon": [
+      "狂鯊",
+      "狂鲨"
+    ],
+    "atterax": [
+      "阿特拉克斯"
+    ],
+    "tiberon prime": [
+      "狂鯊Prime",
+      "狂鲨Prime"
+    ],
+    "狂鲨 prime": [
+      "狂鯊Prime",
+      "狂鲨Prime"
+    ],
+    "狂鯊 prime": [
+      "狂鯊Prime",
+      "狂鲨Prime"
+    ],
+    "tigris": [
+      "猛虎"
+    ],
+    "tigris prime": [
+      "猛虎Prime"
+    ],
+    "猛虎 prime": [
+      "猛虎Prime"
+    ],
+    "tipedo": [
+      "提佩多"
+    ],
+    "tipedo prime": [
+      "提佩多Prime"
+    ],
+    "提佩多 prime": [
+      "提佩多Prime"
+    ],
+    "tonbo": [
+      "蜻蛉薙",
+      "蜻蜓薙"
+    ],
+    "tonkor": [
+      "征服榴炮",
+      "征服榴砲"
+    ],
+    "torid": [
+      "托里德"
+    ],
+    "twin basolk": [
+      "双子巴萨克",
+      "雙子巴薩克"
+    ],
+    "twin grakata": [
+      "双子葛拉卡达",
+      "雙子葛拉卡達"
+    ],
+    "attica": [
+      "阿提卡"
+    ],
+    "twin gremlins": [
+      "双子小精灵",
+      "雙子小精靈"
+    ],
+    "twin kohmak": [
+      "双子宼恩霰机枪",
+      "雙子寇恩霰機槍"
+    ],
+    "twin rogga": [
+      "双子罗格",
+      "雙子羅格"
+    ],
+    "twin vipers": [
+      "双子蝰蛇",
+      "雙子蝰蛇"
+    ],
+    "twin wraith vipers": [
+      "双子蝰蛇亡魂",
+      "雙子蝰蛇亡魂"
+    ],
+    "tysis": [
+      "啐沫者"
+    ],
+    "vasto": [
+      "瓦斯托"
+    ],
+    "vasto prime": [
+      "瓦斯托Prime"
+    ],
+    "瓦斯托 prime": [
+      "瓦斯托Prime"
+    ],
+    "vaykor hek": [
+      "勇气海克",
+      "勇氣海克"
+    ],
+    "vaykor marelok": [
+      "勇气玛瑞火枪",
+      "勇氣瑪瑞火槍"
+    ],
+    "azima": [
+      "方位角"
+    ],
+    "vectis": [
+      "守望者"
+    ],
+    "vectis prime": [
+      "守望者Prime"
+    ],
+    "守望者 prime": [
+      "守望者Prime"
+    ],
+    "veldt": [
+      "草原猎手",
+      "草原獵手"
+    ],
+    "venka": [
+      "凯旋之爪",
+      "凱旋之爪"
+    ],
+    "venka prime": [
+      "凯旋之爪Prime",
+      "凱旋之爪Prime"
+    ],
+    "凯旋之爪 prime": [
+      "凯旋之爪Prime",
+      "凱旋之爪Prime"
+    ],
+    "凱旋之爪 prime": [
+      "凯旋之爪Prime",
+      "凱旋之爪Prime"
+    ],
+    "viper": [
+      "蝰蛇"
+    ],
+    "volnus": [
+      "创伤",
+      "創傷"
+    ],
+    "vulkar": [
+      "金工火神"
+    ],
+    "ballistica": [
+      "布里斯提卡"
+    ],
+    "vulkar wraith": [
+      "金工火神亡魂"
+    ],
+    "vulklok": [
+      "金工火枪",
+      "金工火槍"
+    ],
+    "wolf sledge": [
+      "恶狼战锤",
+      "惡狼戰鎚"
+    ],
+    "zakti": [
+      "毒芽"
+    ],
+    "zarr": [
+      "沙皇"
+    ],
+    "zenistar": [
+      "天頂之星",
+      "天顶之星"
+    ],
+    "zenith": [
+      "天穹之頂",
+      "天穹之顶"
+    ],
+    "zhuge": [
+      "諸葛連弩",
+      "诸葛连弩"
+    ],
+    "zhuge prime": [
+      "諸葛連弩Prime",
+      "诸葛连弩Prime"
+    ],
+    "诸葛连弩 prime": [
+      "諸葛連弩Prime",
+      "诸葛连弩Prime"
+    ],
+    "諸葛連弩 prime": [
+      "諸葛連弩Prime",
+      "诸葛连弩Prime"
+    ],
+    "ballistica prime": [
+      "布里斯提卡Prime"
+    ],
+    "布里斯提卡 prime": [
+      "布里斯提卡Prime"
+    ],
+    "zylok": [
+      "席尔火枪",
+      "賽爾火槍"
+    ],
+    "battacor": [
+      "武使之力"
+    ],
+    "baza": [
+      "苍鹰",
+      "蒼鷹"
+    ],
+    "baza prime": [
+      "苍鹰Prime",
+      "蒼鷹Prime"
+    ],
+    "苍鹰 prime": [
+      "苍鹰Prime",
+      "蒼鷹Prime"
+    ],
+    "蒼鷹 prime": [
+      "苍鹰Prime",
+      "蒼鷹Prime"
+    ],
+    "bo prime": [
+      "玻之武杖Prime"
+    ],
+    "玻之武杖 prime": [
+      "玻之武杖Prime"
+    ],
+    "boar": [
+      "野猪",
+      "野豬"
+    ],
+    "boar prime": [
+      "野猪Prime",
+      "野豬Prime"
+    ],
+    "野猪 prime": [
+      "野猪Prime",
+      "野豬Prime"
+    ],
+    "野豬 prime": [
+      "野猪Prime",
+      "野豬Prime"
+    ],
+    "boltace": [
+      "螺釘拐刃",
+      "螺钉拐刃"
+    ],
+    "bolto": [
+      "螺釘手槍",
+      "螺钉手枪"
+    ],
+    "boltor": [
+      "螺釘步槍",
+      "螺钉步枪"
+    ],
+    "boltor prime": [
+      "螺釘步槍Prime",
+      "螺钉步枪Prime"
+    ],
+    "螺钉步枪 prime": [
+      "螺釘步槍Prime",
+      "螺钉步枪Prime"
+    ],
+    "螺釘步槍 prime": [
+      "螺釘步槍Prime",
+      "螺钉步枪Prime"
+    ],
+    "akbolto": [
+      "螺釘雙槍",
+      "螺钉双枪"
+    ],
+    "brakk": [
+      "布拉克"
+    ],
+    "braton": [
+      "布莱顿",
+      "布萊頓"
+    ],
+    "braton prime": [
+      "布莱顿Prime",
+      "布萊頓Prime"
+    ],
+    "布莱顿 prime": [
+      "布莱顿Prime",
+      "布萊頓Prime"
+    ],
+    "布萊頓 prime": [
+      "布莱顿Prime",
+      "布萊頓Prime"
+    ],
+    "braton vandal": [
+      "布莱顿破坏者",
+      "布萊頓破壞者"
+    ],
+    "broken scepter": [
+      "破损珽杖",
+      "破損珽杖"
+    ],
+    "broken war": [
+      "破碎的战争之剑",
+      "破碎的戰爭之劍"
+    ],
+    "bronco": [
+      "野馬",
+      "野马"
+    ],
+    "bronco prime": [
+      "野馬Prime",
+      "野马Prime"
+    ],
+    "野马 prime": [
+      "野馬Prime",
+      "野马Prime"
+    ],
+    "野馬 prime": [
+      "野馬Prime",
+      "野马Prime"
+    ],
+    "burst laser": [
+      "激光点发",
+      "雷射點發"
+    ],
+    "burston": [
+      "伯斯頓",
+      "伯斯顿"
+    ],
+    "akbolto prime": [
+      "螺釘雙槍Prime",
+      "螺钉双枪Prime"
+    ],
+    "螺钉双枪 prime": [
+      "螺釘雙槍Prime",
+      "螺钉双枪Prime"
+    ],
+    "螺釘雙槍 prime": [
+      "螺釘雙槍Prime",
+      "螺钉双枪Prime"
+    ],
+    "burston prime": [
+      "伯斯頓Prime",
+      "伯斯顿Prime"
+    ],
+    "伯斯顿 prime": [
+      "伯斯頓Prime",
+      "伯斯顿Prime"
+    ],
+    "伯斯頓 prime": [
+      "伯斯頓Prime",
+      "伯斯顿Prime"
+    ],
+    "buzlok": [
+      "巴兹火枪",
+      "巴茲火槍"
+    ],
+    "caustacyst": [
+      "灼蚀变体镰",
+      "灼蝕變體鐮"
+    ],
+    "ceramic dagger": [
+      "陶瓷匕首"
+    ],
+    "cerata": [
+      "裸鰓刃",
+      "裸鳃刃"
+    ],
+    "cernos": [
+      "西諾斯",
+      "西诺斯"
+    ],
+    "cernos prime": [
+      "西諾斯Prime",
+      "西诺斯Prime"
+    ],
+    "西诺斯 prime": [
+      "西諾斯Prime",
+      "西诺斯Prime"
+    ],
+    "西諾斯 prime": [
+      "西諾斯Prime",
+      "西诺斯Prime"
+    ],
+    "cestra": [
+      "錫斯特",
+      "锡斯特"
+    ],
+    "cobra & crane": [
+      "眼鏡蛇&鶴",
+      "眼镜蛇&鹤"
+    ],
+    "akbronco": [
+      "野馬雙槍",
+      "野马双枪"
+    ],
+    "convectrix": [
+      "导热聚焦枪",
+      "導熱聚焦槍"
+    ],
+    "corinth": [
+      "科林斯"
+    ],
+    "corinth prime": [
+      "科林斯Prime"
+    ],
+    "科林斯 prime": [
+      "科林斯Prime"
+    ],
+    "cronus": [
+      "克洛諾斯",
+      "克洛诺斯"
+    ],
+    "cycron": [
+      "循环离子枪",
+      "循環離子槍"
+    ],
+    "daikyu": [
+      "大久和弓"
+    ],
+    "dakra prime": [
+      "达克拉Prime",
+      "達克拉Prime"
+    ],
+    "达克拉 prime": [
+      "达克拉Prime",
+      "達克拉Prime"
+    ],
+    "達克拉 prime": [
+      "达克拉Prime",
+      "達克拉Prime"
+    ],
+    "dark dagger": [
+      "暗黑匕首"
+    ],
+    "akbronco prime": [
+      "野馬雙槍Prime",
+      "野马双枪Prime"
+    ],
+    "野马双枪 prime": [
+      "野馬雙槍Prime",
+      "野马双枪Prime"
+    ],
+    "野馬雙槍 prime": [
+      "野馬雙槍Prime",
+      "野马双枪Prime"
+    ],
+    "dark split-sword": [
+      "暗黑分合剑",
+      "暗黑分合劍"
+    ],
+    "dark sword": [
+      "暗黑長劍",
+      "暗黑长剑"
+    ],
+    "athodai": [
+      "厄索戴",
+      "阿索代"
+    ],
+    "quassus": [
+      "夸瑟",
+      "威震武扇"
+    ],
+    "zymos": [
+      "宰魔",
+      "邪莫斯"
+    ],
+    "deconstructor": [
+      "分离",
+      "分離"
+    ],
+    "keratinos": [
+      "卡提努之爪",
+      "鋒角之爪"
+    ],
+    "trumna": [
+      "創痍者",
+      "灭杀者"
+    ],
+    "sepulcrum": [
+      "追击者",
+      "鑿墓者"
+    ],
+    "deconstructor prime": [
+      "分离Prime",
+      "分離Prime"
+    ],
+    "分离 prime": [
+      "分离Prime",
+      "分離Prime"
+    ],
+    "分離 prime": [
+      "分离Prime",
+      "分離Prime"
+    ],
+    "stropha": [
+      "詭詐鋒刃",
+      "诡计之刃"
+    ],
+    "dera": [
+      "德拉"
+    ],
+    "dera vandal": [
+      "德拉破坏者",
+      "德拉破壞者"
+    ],
+    "stahlta": [
+      "鋼砲步槍",
+      "钢刃步枪"
+    ],
+    "vaykor sydon": [
+      "勇气恶龙",
+      "勇氣惡龍"
+    ],
+    "telos boltor": [
+      "終極螺釘步槍",
+      "终极螺钉步枪"
+    ],
+    "telos boltace": [
+      "終極螺釘拐刃",
+      "终极螺钉拐刃"
+    ],
+    "velox": [
+      "迅敏屠夫",
+      "逐电"
+    ],
+    "xoris": [
+      "索瑞斯",
+      "驱魔之刃"
+    ],
+    "despair": [
+      "絕望",
+      "绝望"
+    ],
+    "pangolin prime": [
+      "鯪鯉劍Prime",
+      "鲮鲤剑Prime"
+    ],
+    "鲮鲤剑 prime": [
+      "鯪鯉劍Prime",
+      "鲮鲤剑Prime"
+    ],
+    "鯪鯉劍 prime": [
+      "鯪鯉劍Prime",
+      "鲮鲤剑Prime"
+    ],
+    "destreza": [
+      "技巧之剑",
+      "技巧之劍"
+    ],
+    "basmu": [
+      "巴什穆",
+      "雙角蛇"
+    ],
+    "ceti lacera": [
+      "刻帝悲痛之刃",
+      "天仓悲痛之刃"
+    ],
+    "destreza prime": [
+      "技巧之剑Prime",
+      "技巧之劍Prime"
+    ],
+    "技巧之剑 prime": [
+      "技巧之剑Prime",
+      "技巧之劍Prime"
+    ],
+    "技巧之劍 prime": [
+      "技巧之剑Prime",
+      "技巧之劍Prime"
+    ],
+    "kuva nukor": [
+      "赤毒努寇微波枪",
+      "赤毒努寇微波槍"
+    ],
+    "kuva hind": [
+      "赤毒雌鹿"
+    ],
+    "kuva bramma": [
+      "赤毒布拉玛",
+      "赤毒布拉瑪"
+    ],
+    "deth machine rifle": [
+      "死亡机枪",
+      "死亡機槍"
+    ],
+    "akjagara": [
+      "覺醒雙槍",
+      "觉醒双枪"
+    ],
+    "detron": [
+      "德特昂"
+    ],
+    "detron mara": [
+      "苦痛德特昂",
+      "遇险"
+    ],
+    "masseter": [
+      "咀嚼金棒"
+    ],
+    "aksomati prime": [
+      "輕靈月神雙槍Prime",
+      "轻灵月神双枪Prime"
+    ],
+    "轻灵月神双枪 prime": [
+      "輕靈月神雙槍Prime",
+      "轻灵月神双枪Prime"
+    ],
+    "輕靈月神雙槍 prime": [
+      "輕靈月神雙槍Prime",
+      "轻灵月神双枪Prime"
+    ],
+    "quellor": [
+      "压制者",
+      "鎮壓者"
+    ],
+    "dex dakra": [
+      "Dex达克拉双剑",
+      "Dex達克拉雙劍"
+    ],
+    "pennant": [
+      "三角旗",
+      "尖幡"
+    ],
+    "dex furis": [
+      "Dex盗贼双枪",
+      "Dex盜賊雙槍"
+    ],
+    "dex sybaris": [
+      "Dex席芭莉丝",
+      "Dex席芭莉絲"
+    ],
+    "dragon nikana": [
+      "龍之侍刃",
+      "龙之侍刃"
+    ],
+    "drakgoon": [
+      "龍騎兵",
+      "龙骑兵"
+    ],
+    "dread": [
+      "恐惧",
+      "恐懼"
+    ],
+    "vitrica": [
+      "碎璃之劍",
+      "金璃剑"
+    ],
+    "zakti prime": [
+      "毒芽Prime"
+    ],
+    "毒芽 prime": [
+      "毒芽Prime"
+    ],
+    "guandao prime": [
+      "关刀Prime",
+      "關刀Prime"
+    ],
+    "关刀 prime": [
+      "关刀Prime",
+      "關刀Prime"
+    ],
+    "關刀 prime": [
+      "关刀Prime",
+      "關刀Prime"
+    ],
+    "dual broncos": [
+      "野馬雙槍",
+      "野马双枪"
+    ],
+    "proboscis cernos": [
+      "刺吸西诺斯",
+      "攀吻西諾斯"
+    ],
+    "pulmonars": [
+      "伏魔之息",
+      "感染连枷"
+    ],
+    "bubonico": [
+      "横痃重炮",
+      "疫囊毒砲"
+    ],
+    "sporothrix": [
+      "孢丝感染枪",
+      "毒孢步槍"
+    ],
+    "morgha": [
+      "置灵者",
+      "葬棺者"
+    ],
+    "arum spinosa": [
+      "疆南星刺",
+      "蘭膜星"
+    ],
+    "dual decurion": [
+      "什長雙槍",
+      "什长双枪"
+    ],
+    "fluctus": [
+      "巨浪"
+    ],
+    "grattler": [
+      "葛拉特勒"
+    ],
+    "imperator": [
+      "凯旋将军",
+      "凱旋將軍"
+    ],
+    "imperator vandal": [
+      "凯旋将军破坏者",
+      "凱旋將軍破壞者"
+    ],
+    "kaszas": [
+      "死亡使徒"
+    ],
+    "knux": [
+      "克納克斯",
+      "克那克斯"
+    ],
+    "larkspur": [
+      "翠雀"
+    ],
+    "onorix": [
+      "奥努里克斯",
+      "奧努里克斯"
+    ],
+    "phaedra": [
+      "菲德菈"
+    ],
+    "prisma veritux": [
+      "棱晶真理巨剑",
+      "棱晶真理巨劍"
+    ],
+    "rathbone": [
+      "拉斯波恩"
+    ],
+    "velocitus": [
+      "极速电磁步枪",
+      "極速電磁步槍"
+    ],
+    "veritux": [
+      "真理巨剑",
+      "真理巨劍"
+    ],
+    "agkuza": [
+      "馴象鉤刃",
+      "驯象钩刃"
+    ],
+    "centaur": [
+      "半人馬",
+      "半人马"
+    ],
+    "corvas": [
+      "黑鴉",
+      "黑鸦"
+    ],
+    "cyngas": [
+      "合成燃气炮",
+      "合成燃氣砲"
+    ],
+    "cortege": [
+      "送葬者",
+      "頌葬者"
+    ],
+    "mausolon": [
+      "惩戒者",
+      "造陵者"
+    ],
+    "balla": [
+      "夜靈平原",
+      "宝拉",
+      "寶拉"
+    ],
+    "cyath": [
+      "夜靈平原",
+      "西亚什",
+      "西亞甚"
+    ],
+    "dehtat": [
+      "夜靈平原",
+      "德塔特"
+    ],
+    "dokrahm": [
+      "多克拉姆",
+      "夜靈平原"
+    ],
+    "ekwana ii jai": [
+      "伊克瓦納_II_翟",
+      "伊克瓦纳_II_翟",
+      "夜靈平原"
+    ],
+    "ekwana ii ruhang": [
+      "伊克瓦納_II_如杭",
+      "伊克瓦纳_II_如杭",
+      "夜靈平原"
+    ],
+    "ekwana jai": [
+      "伊克瓦納_翟",
+      "伊克瓦纳_翟",
+      "夜靈平原"
+    ],
+    "ekwana jai ii": [
+      "伊克瓦納_翟_II",
+      "伊克瓦纳_翟_II",
+      "夜靈平原"
+    ],
+    "ekwana ruhang ii": [
+      "伊克瓦納_如杭_II",
+      "伊克瓦纳_如杭_II",
+      "夜靈平原"
+    ],
+    "ekwana ruhang": [
+      "伊克瓦納_如杭",
+      "伊克瓦纳_如杭",
+      "夜靈平原"
+    ],
+    "jai ii": [
+      "夜靈平原",
+      "翟_II"
+    ],
+    "jayap": [
+      "夜靈平原",
+      "查亚普",
+      "查亞普"
+    ],
+    "korb": [
+      "夜靈平原",
+      "科布"
+    ],
+    "kronsh": [
+      "夜靈平原",
+      "客隆什"
+    ],
+    "kroostra": [
+      "克魯斯查",
+      "克鲁斯查",
+      "夜靈平原"
+    ],
+    "kwath": [
+      "夜靈平原",
+      "库阿斯",
+      "庫阿斯"
+    ],
+    "laka": [
+      "夜靈平原",
+      "拉卡"
+    ],
+    "mewan": [
+      "夜靈平原",
+      "密丸"
+    ],
+    "ooltha": [
+      "乌尔萨",
+      "夜靈平原",
+      "烏爾薩"
+    ],
+    "peye": [
+      "佩耶",
+      "夜靈平原"
+    ],
+    "plague akwin": [
+      "夜靈平原",
+      "瘟疫艾克文"
+    ],
+    "plague bokwin": [
+      "夜靈平原",
+      "瘟疫柏克文"
+    ],
+    "plague keewar": [
+      "夜靈平原",
+      "瘟疫奇沃"
+    ],
+    "plague kripath": [
+      "夜靈平原",
+      "瘟疫克里帕丝",
+      "瘟疫克里帕斯"
+    ],
+    "rabvee": [
+      "夜靈平原",
+      "拉比威"
+    ],
+    "ruhang": [
+      "夜靈平原",
+      "如杭"
+    ],
+    "ruhang ii": [
+      "夜靈平原",
+      "如杭_II"
+    ],
+    "seekalla": [
+      "夜靈平原",
+      "斯卡拉"
+    ],
+    "sepfahn": [
+      "夜靈平原",
+      "瑟普梵"
+    ],
+    "shtung": [
+      "夜靈平原",
+      "石当",
+      "石當"
+    ],
+    "vargeet ii jai": [
+      "夜靈平原",
+      "瓦吉特_II_翟"
+    ],
+    "vargeet ii ruhang": [
+      "夜靈平原",
+      "瓦吉特_II_如杭"
+    ],
+    "vargeet jai": [
+      "夜靈平原",
+      "瓦吉特_翟"
+    ],
+    "vargeet jai ii": [
+      "夜靈平原",
+      "瓦吉特_翟_II"
+    ],
+    "vargeet ruhang": [
+      "夜靈平原",
+      "瓦吉特_如杭"
+    ],
+    "vargeet ruhang ii": [
+      "夜靈平原",
+      "瓦吉特_如杭_II"
+    ],
+    "lanzo": [
+      "兰佐鱼叉",
+      "夜靈平原",
+      "蘭佐魚叉",
+      "釣魚"
+    ],
+    "tulok": [
+      "图洛克鱼叉",
+      "圖洛克魚叉",
+      "夜靈平原",
+      "釣魚"
+    ],
+    "peram": [
+      "佩拉姆魚叉",
+      "佩拉姆鱼叉",
+      "夜靈平原",
+      "釣魚"
+    ],
+    "bashrack": [
+      "填彈器",
+      "奧布山谷",
+      "狂虐"
+    ],
+    "bellows": [
+      "填彈器",
+      "奧布山谷",
+      "風箱",
+      "风箱"
+    ],
+    "catchmoon": [
+      "奧布山谷",
+      "捕月",
+      "槍膛"
+    ],
+    "deepbreath": [
+      "填彈器",
+      "奧布山谷",
+      "深息"
+    ],
+    "flutterfire": [
+      "填彈器",
+      "奧布山谷",
+      "激火"
+    ],
+    "gaze": [
+      "凝目",
+      "奧布山谷",
+      "槍膛"
+    ],
+    "gibber": [
+      "奧布山谷",
+      "握把",
+      "碎語",
+      "碎语"
+    ],
+    "haymaker": [
+      "奧布山谷",
+      "握把",
+      "重拳"
+    ],
+    "killstream": [
+      "填彈器",
+      "奧布山谷",
+      "斃流",
+      "连杀"
+    ],
+    "lovetap": [
+      "奧布山谷",
+      "愛擊",
+      "握把",
+      "爱击"
+    ],
+    "ramble": [
+      "奧布山谷",
+      "握把",
+      "漫游",
+      "遨遊"
+    ],
+    "ramflare": [
+      "填彈器",
+      "奧布山谷",
+      "激爆",
+      "猛光"
+    ],
+    "rattleguts": [
+      "响胆",
+      "奧布山谷",
+      "槍膛",
+      "響膽"
+    ],
+    "slap": [
+      "填彈器",
+      "奧布山谷",
+      "掌击",
+      "掌撼"
+    ],
+    "slapneedle": [
+      "填彈器",
+      "奧布山谷",
+      "拍針",
+      "拍针"
+    ],
+    "spark": [
+      "填彈器",
+      "奧布山谷",
+      "火花",
+      "花火"
+    ],
+    "splat": [
+      "填彈器",
+      "奧布山谷",
+      "溅击",
+      "砸擊"
+    ],
+    "stitch": [
+      "填彈器",
+      "奧布山谷",
+      "穿紉",
+      "穿纫"
+    ],
+    "swiftfire": [
+      "填彈器",
+      "奧布山谷",
+      "迅火",
+      "颤火"
+    ],
+    "thunderdrum": [
+      "填彈器",
+      "奧布山谷",
+      "雷鼓"
+    ],
+    "tombfinger": [
+      "墓指",
+      "奧布山谷",
+      "槍膛"
+    ],
+    "zipfire": [
+      "填彈器",
+      "奧布山谷",
+      "迅火",
+      "速火"
+    ],
+    "zipneedle": [
+      "勁針",
+      "填彈器",
+      "奧布山谷",
+      "速针"
+    ],
+    "brash": [
+      "奧布山谷",
+      "急躁",
+      "握把",
+      "暴獄"
+    ],
+    "shrewd": [
+      "奧布山谷",
+      "握把",
+      "精捷",
+      "精明"
+    ],
+    "steadyslam": [
+      "固擊",
+      "奧布山谷",
+      "握把",
+      "稳击"
+    ],
+    "tremor": [
+      "奧布山谷",
+      "握把",
+      "震颤",
+      "顫動"
+    ],
+    "shockprod": [
+      "休克波魚叉",
+      "奧布山谷",
+      "电冲刺鱼叉",
+      "釣魚"
+    ],
+    "stunna": [
+      "史鈍那魚叉",
+      "奧布山谷",
+      "电震波鱼叉",
+      "釣魚"
+    ],
+    "vermisplicer": [
+      "接蟲",
+      "槍膛",
+      "虫置",
+      "魔裔禁地"
+    ],
+    "palmaris": [
+      "掌筋",
+      "掌骨",
+      "握把",
+      "魔裔禁地"
+    ],
+    "ulnaris": [
+      "尺骨",
+      "握把",
+      "魔裔禁地"
+    ],
+    "arcroid": [
+      "填彈器",
+      "弃脓",
+      "弦肌",
+      "魔裔禁地"
+    ],
+    "thymoid": [
+      "填彈器",
+      "抑脓",
+      "腺肌",
+      "魔裔禁地"
+    ],
+    "marco arcroid": [
+      "填彈器",
+      "巨匣弃脓",
+      "巨宏弦肌",
+      "魔裔禁地"
+    ],
+    "marco thymoid": [
+      "填彈器",
+      "巨匣抑脓",
+      "巨宏腺肌",
+      "魔裔禁地"
+    ],
+    "bonewidow": [
+      "骨寡婦",
+      "骨骸寡妇",
+      "魔裔禁地"
+    ],
+    "residual viremia": [
+      "残差毒血",
+      "殘餘毒血",
+      "賦能",
+      "魔裔禁地"
+    ],
+    "residual malodor": [
+      "残差恶嗅",
+      "殘餘惡臭",
+      "賦能",
+      "魔裔禁地"
+    ],
+    "residual boils": [
+      "残差燃沸",
+      "殘餘癤瘤",
+      "賦能",
+      "魔裔禁地"
+    ],
+    "residual shock": [
+      "残差电击",
+      "殘餘電觸",
+      "賦能",
+      "魔裔禁地"
+    ],
+    "theorem contagion": [
+      "定理触染",
+      "定理觸染",
+      "賦能",
+      "魔裔禁地"
+    ],
+    "theorem demulcent": [
+      "定理緩和",
+      "定理缓和",
+      "賦能",
+      "魔裔禁地"
+    ],
+    "theorem infection": [
+      "定理感染",
+      "賦能",
+      "魔裔禁地"
+    ],
+    "necramech": [
+      "亡骸機甲",
+      "殁世机甲",
+      "魔裔禁地"
+    ],
+    "necralisk": [
+      "亡骸殿",
+      "殁世幽都",
+      "魔裔禁地"
+    ],
+    "thaumic distillate": [
+      "精粹萨莫石",
+      "精萃奇魔礦",
+      "魔裔禁地"
+    ],
+    "scintillant": [
+      "閃爍虛靈",
+      "闪烁体",
+      "魔裔禁地"
+    ],
+    "pustulite": [
+      "利刃爪疱",
+      "繫爪孢籽",
+      "魔裔禁地"
+    ],
+    "ganglion": [
+      "神經結節",
+      "神经节囊",
+      "魔裔禁地"
+    ],
+    "spinal core section": [
+      "脊髓核心剖面",
+      "脊髓核心节",
+      "魔裔禁地"
+    ],
+    "lucent teroglobe": [
+      "泰罗光球",
+      "發光源球",
+      "魔裔禁地"
+    ],
+    "voidrig": [
+      "虚空锐将",
+      "虛空魂",
+      "魔裔禁地"
+    ],
+    "sporelacer": [
+      "孢射",
+      "攙孢",
+      "槍膛",
+      "魔裔禁地"
+    ],
+    "brief respite": [
+      "光環MOD",
+      "快速休整",
+      "快速修整"
+    ],
+    "empowered blades": [
+      "光環MOD",
+      "強化刀鋒",
+      "强化刀锋"
+    ],
+    "growing power": [
+      "光環MOD",
+      "成長之力",
+      "成长之力"
+    ],
+    "pistol scavenger": [
+      "光環MOD",
+      "手枪弹药搜集者",
+      "手槍彈藥蒐集者"
+    ],
+    "rifle scavenger": [
+      "光環MOD",
+      "步枪弹药搜集者",
+      "步槍彈藥蒐集者"
+    ],
+    "shotgun scavenger": [
+      "光環MOD",
+      "霰弹枪弹药搜集者",
+      "霰彈槍彈藥蒐集者"
+    ],
+    "sniper scavenger": [
+      "光環MOD",
+      "狙击枪弹药搜集者",
+      "狙擊槍彈藥蒐集者"
+    ],
+    "sprint boost": [
+      "光環MOD",
+      "冲刺提升",
+      "衝刺提升"
+    ],
+    "mach crash": [
+      "戰甲MOD",
+      "集團MOD",
+      "馬赫猛擊",
+      "马赫崩毁"
+    ],
+    "blending talons": [
+      "戰甲MOD",
+      "混沌利爪",
+      "穿絞利爪",
+      "集團MOD"
+    ],
+    "thrall pact": [
+      "奴仆契约",
+      "奴役契約",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "critical surge": [
+      "戰甲MOD",
+      "暴击涌流",
+      "毀滅湧流",
+      "集團MOD"
+    ],
+    "abating link": [
+      "戰甲MOD",
+      "耗弱連結",
+      "耗弱链接",
+      "集團MOD"
+    ],
+    "accumulating whipclaw": [
+      "戰甲MOD",
+      "蓄积长鞭",
+      "蓄積長鞭",
+      "集團MOD"
+    ],
+    "adaptation": [
+      "戰甲MOD",
+      "适应",
+      "適應"
+    ],
+    "assimilate": [
+      "同化",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "beguiling lantern": [
+      "戰甲MOD",
+      "欺幻魔灯",
+      "欺幻魔燈",
+      "集團MOD"
+    ],
+    "blinding reave": [
+      "戰甲MOD",
+      "致盲掠夺",
+      "致盲掠奪",
+      "集團MOD"
+    ],
+    "calm & frenzy": [
+      "冷静与疯狂",
+      "冷靜與瘋狂",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "celestial stomp": [
+      "天圣践踏",
+      "天聖踐踏",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "chilling globe": [
+      "冰封护罩",
+      "冰封護罩",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "chromatic blade": [
+      "华彩刀剑",
+      "戰甲MOD",
+      "華彩刀劍",
+      "集團MOD"
+    ],
+    "concentrated arrow": [
+      "戰甲MOD",
+      "集中箭矢",
+      "集團MOD"
+    ],
+    "conductor": [
+      "戰甲MOD",
+      "指挥家",
+      "指揮家",
+      "集團MOD"
+    ],
+    "counter pulse": [
+      "反轉脈衝",
+      "反转脉冲",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "creeping terrify": [
+      "戰甲MOD",
+      "緩動驚駭",
+      "缓动惊骇",
+      "集團MOD"
+    ],
+    "duality": [
+      "二元性状",
+      "二元性狀",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "empowered quiver": [
+      "強化箭袋",
+      "强化箭袋",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "enveloping cloud": [
+      "包覆游云",
+      "包覆游雲",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "eternal war": [
+      "戰甲MOD",
+      "永恆戰意",
+      "永恒战意",
+      "集團MOD"
+    ],
+    "explosive legerdemain": [
+      "戰甲MOD",
+      "爆炸戏法",
+      "爆炸戲法",
+      "集團MOD"
+    ],
+    "fatal teleport": [
+      "戰甲MOD",
+      "致命传送",
+      "致命傳送",
+      "集團MOD"
+    ],
+    "fleeting expertise": [
+      "堕落MOD",
+      "弹指瞬技",
+      "彈指瞬技",
+      "戰甲MOD"
+    ],
+    "funnel clouds": [
+      "戰甲MOD",
+      "漏斗状云",
+      "漏斗狀雲",
+      "集團MOD"
+    ],
+    "greedy pull": [
+      "戰甲MOD",
+      "貪婪吸引",
+      "贪婪吸引",
+      "集團MOD"
+    ],
+    "hall of malevolence": [
+      "恶怨厅",
+      "惡怨殿堂",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "hysterical assault": [
+      "戰甲MOD",
+      "狂化突击",
+      "狂化突擊",
+      "集團MOD"
+    ],
+    "ice wave impedance": [
+      "戰甲MOD",
+      "滞痕冰浪",
+      "滯痕冰浪",
+      "集團MOD"
+    ],
+    "icy avalanche": [
+      "冰冷雪崩",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "infiltrate": [
+      "戰甲MOD",
+      "渗透",
+      "滲透",
+      "集團MOD"
+    ],
+    "insatiable": [
+      "不竭貪婪",
+      "不竭贪婪",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "larva burst": [
+      "幼体爆发",
+      "幼體爆發",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "lasting covenant": [
+      "戰甲MOD",
+      "持久聖約",
+      "持久誓约",
+      "集團MOD"
+    ],
+    "magnetized discharge": [
+      "戰甲MOD",
+      "磁吸释放",
+      "磁吸釋放",
+      "集團MOD"
+    ],
+    "mending splinters": [
+      "戰甲MOD",
+      "治愈玻片",
+      "治癒玻片",
+      "集團MOD"
+    ],
+    "mesa's waltz": [
+      "Mesa的华尔兹",
+      "Mesa的華爾茲",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "mesa 的华尔兹": [
+      "Mesa的华尔兹",
+      "Mesa的華爾茲",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "mesa 的華爾茲": [
+      "Mesa的华尔兹",
+      "Mesa的華爾茲",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "mind freak": [
+      "戰甲MOD",
+      "精神狂怒",
+      "集團MOD"
+    ],
+    "narrow minded": [
+      "堕落MOD",
+      "心志偏狭",
+      "心志偏狹",
+      "戰甲MOD"
+    ],
+    "negation swarm": [
+      "戰甲MOD",
+      "抵消虫群",
+      "抵消蟲群",
+      "集團MOD"
+    ],
+    "ore gaze": [
+      "戰甲MOD",
+      "矿石凝视",
+      "礦石凝視",
+      "集團MOD"
+    ],
+    "partitioned mallet": [
+      "分裂槌音",
+      "分裂鎚音",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "path of statues": [
+      "化像之道",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "peaceful provocation": [
+      "和平挑衅",
+      "和平挑釁",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "peculiar bloom": [
+      "怪奇MOD",
+      "戰甲MOD",
+      "花开怪奇",
+      "花開怪奇"
+    ],
+    "peculiar growth": [
+      "怪奇MOD",
+      "戰甲MOD",
+      "生長怪奇",
+      "生长怪奇"
+    ],
+    "phoenix renewal": [
+      "凤凰新生",
+      "戰甲MOD",
+      "集團MOD",
+      "鳳凰新生"
+    ],
+    "piercing navigator": [
+      "戰甲MOD",
+      "穿刺抛体",
+      "穿刺拋體",
+      "集團MOD"
+    ],
+    "piercing roar": [
+      "刺骨战吼",
+      "刺骨戰吼",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "pilfering strangledome": [
+      "戰甲MOD",
+      "貪奪穹頂",
+      "贪夺穹顶",
+      "集團MOD"
+    ],
+    "pilfering swarm": [
+      "戰甲MOD",
+      "貪奪觸角",
+      "贪夺触角",
+      "集團MOD"
+    ],
+    "power donation": [
+      "光環MOD",
+      "戰甲MOD",
+      "献出力量",
+      "獻出力量"
+    ],
+    "primal rage": [
+      "原始暴怒",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "prolonged paralysis": [
+      "戰甲MOD",
+      "長時癱瘓",
+      "长时瘫痪",
+      "集團MOD"
+    ],
+    "pyroclastic flow": [
+      "戰甲MOD",
+      "火成碎流",
+      "集團MOD"
+    ],
+    "radiant finish": [
+      "戰甲MOD",
+      "終結閃光",
+      "终结闪光",
+      "集團MOD"
+    ],
+    "razorwing blitz": [
+      "刀翼闪击",
+      "剃刀之翼的閃擊",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "redirection": [
+      "戰甲MOD",
+      "蓄能重划",
+      "蓄能重劃",
+      "通常MOD"
+    ],
+    "reinforcing stomp": [
+      "戰甲MOD",
+      "践踏加固",
+      "踐踏加固",
+      "集團MOD"
+    ],
+    "repelling bastille": [
+      "戰甲MOD",
+      "集團MOD",
+      "驅逐力場",
+      "驱逐力场"
+    ],
+    "resonating quake": [
+      "戰甲MOD",
+      "集團MOD",
+      "震地共鳴",
+      "震地共鸣"
+    ],
+    "rising storm": [
+      "戰甲MOD",
+      "集團MOD",
+      "風起雲湧",
+      "风起云涌"
+    ],
+    "rolling guard": [
+      "戰甲MOD",
+      "翻滚防护",
+      "翻滾防護"
+    ],
+    "safeguard": [
+      "戰甲MOD",
+      "火綾守護",
+      "火绫守护",
+      "集團MOD"
+    ],
+    "savage silence": [
+      "戰甲MOD",
+      "残酷无息",
+      "殘酷無息",
+      "集團MOD"
+    ],
+    "seeking shuriken": [
+      "削甲手裡劍",
+      "削甲手里剑",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "shield of shadows": [
+      "幽影之护",
+      "幽影之護",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "shock trooper": [
+      "戰甲MOD",
+      "电击奇兵",
+      "集團MOD",
+      "電擊震盪"
+    ],
+    "shocking speed": [
+      "戰甲MOD",
+      "电击加速",
+      "集團MOD",
+      "電擊加速"
+    ],
+    "smite infusion": [
+      "惩击洗礼",
+      "懲擊洗禮",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "sonic fracture": [
+      "戰甲MOD",
+      "破碎声波",
+      "破碎聲波",
+      "集團MOD"
+    ],
+    "spectrosiphon": [
+      "光譜虹吸",
+      "光谱虹吸",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "swing line": [
+      "戰甲MOD",
+      "摆荡钩索",
+      "擺盪鉤索",
+      "集團MOD"
+    ],
+    "target fixation": [
+      "戰甲MOD",
+      "目标入定",
+      "目標入定",
+      "集團MOD"
+    ],
+    "tectonic fracture": [
+      "戰甲MOD",
+      "构造裂缝",
+      "構造裂縫",
+      "集團MOD"
+    ],
+    "teeming virulence": [
+      "戰甲MOD",
+      "猛爆致病",
+      "集團MOD"
+    ],
+    "titanic rumbler": [
+      "巨大石者",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "transistor shield": [
+      "戰甲MOD",
+      "晶管屏障",
+      "集團MOD",
+      "電控護盾"
+    ],
+    "vampire leech": [
+      "戰甲MOD",
+      "汲能榨取",
+      "集團MOD"
+    ],
+    "venari bodyguard": [
+      "戰甲MOD",
+      "薇娜丽的护卫",
+      "薇娜麗的護衛",
+      "集團MOD"
+    ],
+    "vigorous swap": [
+      "強力切換",
+      "强力切换",
+      "戰甲MOD"
+    ],
+    "warding thurible": [
+      "庇护焚炉",
+      "庇護焚爐",
+      "戰甲MOD",
+      "集團MOD"
+    ],
+    "ammo stock": [
+      "主武器MOD",
+      "霰弹扩充",
+      "霰彈擴充",
+      "霰彈槍MOD"
+    ],
+    "argon scope": [
+      "主武器MOD",
+      "步槍MOD",
+      "氩晶瞄具",
+      "氬晶瞄具"
+    ],
+    "bane of corpus": [
+      "主武器MOD",
+      "步槍MOD",
+      "滅亡Corpus",
+      "灭亡Corpus"
+    ],
+    "灭亡 corpus": [
+      "主武器MOD",
+      "步槍MOD",
+      "滅亡Corpus",
+      "灭亡Corpus"
+    ],
+    "滅亡 corpus": [
+      "主武器MOD",
+      "步槍MOD",
+      "滅亡Corpus",
+      "灭亡Corpus"
+    ],
+    "bane of grineer": [
+      "主武器MOD",
+      "步槍MOD",
+      "滅亡Grineer",
+      "灭亡Grineer"
+    ],
+    "灭亡 grineer": [
+      "主武器MOD",
+      "步槍MOD",
+      "滅亡Grineer",
+      "灭亡Grineer"
+    ],
+    "滅亡 grineer": [
+      "主武器MOD",
+      "步槍MOD",
+      "滅亡Grineer",
+      "灭亡Grineer"
+    ],
+    "bane of infested": [
+      "主武器MOD",
+      "步槍MOD",
+      "滅亡Infested",
+      "灭亡Infested"
+    ],
+    "灭亡 infested": [
+      "主武器MOD",
+      "步槍MOD",
+      "滅亡Infested",
+      "灭亡Infested"
+    ],
+    "滅亡 infested": [
+      "主武器MOD",
+      "步槍MOD",
+      "滅亡Infested",
+      "灭亡Infested"
+    ],
+    "charged chamber": [
+      "主武器MOD",
+      "狙擊槍MOD",
+      "蓄力装填",
+      "蓄力裝填"
+    ],
+    "chilling reload": [
+      "主武器MOD",
+      "噩夢MOD",
+      "激冷装填",
+      "激冷裝填"
+    ],
+    "cleanse corpus": [
+      "主武器MOD",
+      "净化Corpus",
+      "淨化Corpus",
+      "霰彈槍MOD"
+    ],
+    "净化 corpus": [
+      "主武器MOD",
+      "净化Corpus",
+      "淨化Corpus",
+      "霰彈槍MOD"
+    ],
+    "淨化 corpus": [
+      "主武器MOD",
+      "净化Corpus",
+      "淨化Corpus",
+      "霰彈槍MOD"
+    ],
+    "cleanse grineer": [
+      "主武器MOD",
+      "净化Grineer",
+      "淨化Grineer",
+      "霰彈槍MOD"
+    ],
+    "净化 grineer": [
+      "主武器MOD",
+      "净化Grineer",
+      "淨化Grineer",
+      "霰彈槍MOD"
+    ],
+    "淨化 grineer": [
+      "主武器MOD",
+      "净化Grineer",
+      "淨化Grineer",
+      "霰彈槍MOD"
+    ],
+    "cleanse infested": [
+      "主武器MOD",
+      "净化Infested",
+      "淨化Infested",
+      "霰彈槍MOD"
+    ],
+    "净化 infested": [
+      "主武器MOD",
+      "净化Infested",
+      "淨化Infested",
+      "霰彈槍MOD"
+    ],
+    "淨化 infested": [
+      "主武器MOD",
+      "净化Infested",
+      "淨化Infested",
+      "霰彈槍MOD"
+    ],
+    "fanged fusillade": [
+      "主武器MOD",
+      "尖牙连射",
+      "尖牙連射",
+      "步槍MOD"
+    ],
+    "fast hands": [
+      "主武器MOD",
+      "步槍MOD",
+      "爆发装填",
+      "爆發裝填"
+    ],
+    "flux overdrive": [
+      "主武器MOD",
+      "武器專屬MOD",
+      "通量射線步槍超載",
+      "通量射线步枪超载"
+    ],
+    "guided ordinance": [
+      "主武器MOD",
+      "制导弹药",
+      "槍火引導",
+      "步槍MOD"
+    ],
+    "hawk eye": [
+      "主武器MOD",
+      "步槍MOD",
+      "隼目"
+    ],
+    "infected clip": [
+      "主武器MOD",
+      "步槍MOD",
+      "污染弹匣",
+      "污染彈匣"
+    ],
+    "kinetic ricochet": [
+      "主武器MOD",
+      "动力回弹",
+      "動力回彈",
+      "武器專屬MOD"
+    ],
+    "laser sight": [
+      "主武器MOD",
+      "雷射瞄具",
+      "霰彈槍MOD"
+    ],
+    "magazine warp": [
+      "主武器MOD",
+      "弹匣增幅",
+      "彈匣增幅",
+      "步槍MOD"
+    ],
+    "nano-applicator": [
+      "主武器MOD",
+      "奈米塗覆",
+      "纳米涂覆",
+      "霰彈槍MOD"
+    ],
+    "piercing hit": [
+      "主武器MOD",
+      "步槍MOD",
+      "穿甲伤害",
+      "穿甲傷害"
+    ],
+    "repeater clip": [
+      "主武器MOD",
+      "轉輪彈匣",
+      "转轮弹匣",
+      "霰彈槍MOD"
+    ],
+    "seeking force": [
+      "主武器MOD",
+      "穿透力",
+      "霰彈槍MOD"
+    ],
+    "shotgun savvy": [
+      "主武器MOD",
+      "通宵霰彈槍",
+      "通晓霰弹枪",
+      "霰彈槍MOD"
+    ],
+    "shotgun spazz": [
+      "主武器MOD",
+      "霰弹速射",
+      "霰彈槍MOD",
+      "霰彈速射"
+    ],
+    "spring-loaded chamber": [
+      "主武器MOD",
+      "步槍MOD",
+      "簧压膛室",
+      "簧壓膛室"
+    ],
+    "target acquired": [
+      "主武器MOD",
+      "狙擊槍MOD",
+      "鎖定目標",
+      "锁定目标"
+    ],
+    "tether grenades": [
+      "主武器MOD",
+      "武器專屬MOD",
+      "系绳榴弹",
+      "繫繩榴彈"
+    ],
+    "anemic agility": [
+      "乏能迅敏",
+      "副武器MOD",
+      "堕落MOD"
+    ],
+    "concussion rounds": [
+      "副武器MOD",
+      "通常MOD",
+      "震盪彈頭",
+      "震荡弹头"
+    ],
+    "expel corpus": [
+      "副武器MOD",
+      "通常MOD",
+      "驅逐Corpus",
+      "驱逐Corpus"
+    ],
+    "驱逐 corpus": [
+      "副武器MOD",
+      "通常MOD",
+      "驅逐Corpus",
+      "驱逐Corpus"
+    ],
+    "驅逐 corpus": [
+      "副武器MOD",
+      "通常MOD",
+      "驅逐Corpus",
+      "驱逐Corpus"
+    ],
+    "expel grineer": [
+      "副武器MOD",
+      "通常MOD",
+      "驅逐Grineer",
+      "驱逐Grineer"
+    ],
+    "驱逐 grineer": [
+      "副武器MOD",
+      "通常MOD",
+      "驅逐Grineer",
+      "驱逐Grineer"
+    ],
+    "驅逐 grineer": [
+      "副武器MOD",
+      "通常MOD",
+      "驅逐Grineer",
+      "驱逐Grineer"
+    ],
+    "expel infested": [
+      "副武器MOD",
+      "通常MOD",
+      "驅逐Infested",
+      "驱逐Infested"
+    ],
+    "驱逐 infested": [
+      "副武器MOD",
+      "通常MOD",
+      "驅逐Infested",
+      "驱逐Infested"
+    ],
+    "驅逐 infested": [
+      "副武器MOD",
+      "通常MOD",
+      "驅逐Infested",
+      "驱逐Infested"
+    ],
+    "ice storm": [
+      "冰風暴",
+      "冰风暴",
+      "副武器MOD",
+      "噩夢MOD"
+    ],
+    "lethal momentum": [
+      "副武器MOD",
+      "致命动量",
+      "致命動量",
+      "通常MOD"
+    ],
+    "pathogen rounds": [
+      "副武器MOD",
+      "病原弹头",
+      "病原彈頭",
+      "通常MOD"
+    ],
+    "pressurized magazine": [
+      "副武器MOD",
+      "增压弹匣",
+      "增壓彈匣",
+      "通常MOD"
+    ],
+    "quickdraw": [
+      "副武器MOD",
+      "持續火力",
+      "持续火力",
+      "通常MOD"
+    ],
+    "ruinous extension": [
+      "副武器MOD",
+      "毀滅擴展",
+      "毁灭扩展",
+      "通常MOD"
+    ],
+    "scorch": [
+      "副武器MOD",
+      "灼痕焦点",
+      "灼痕焦點",
+      "通常MOD"
+    ],
+    "seeker": [
+      "副武器MOD",
+      "弹头导引",
+      "彈頭導引",
+      "通常MOD"
+    ],
+    "slip magazine": [
+      "串联弹匣",
+      "串連彈匣",
+      "副武器MOD",
+      "通常MOD"
+    ],
+    "steady hands": [
+      "副武器MOD",
+      "稳定枪手",
+      "穩定槍手",
+      "通常MOD"
+    ],
+    "stunning speed": [
+      "副武器MOD",
+      "噩夢MOD",
+      "慑人神速",
+      "懾人神速"
+    ],
+    "sure shot": [
+      "准确射手",
+      "副武器MOD",
+      "準確射手",
+      "通常MOD"
+    ],
+    "targeting subsystem": [
+      "副武器MOD",
+      "定位輔助",
+      "定位辅助",
+      "通常MOD"
+    ],
+    "trick mag": [
+      "副武器MOD",
+      "戏法增幅",
+      "戲法增幅",
+      "通常MOD"
+    ],
+    "volatile rebound": [
+      "專屬MOD",
+      "易爆反彈",
+      "暴怒反弹",
+      "近戰MOD"
+    ],
+    "volatile quick return": [
+      "專屬MOD",
+      "易爆即返",
+      "暴怒速返",
+      "近戰MOD"
+    ],
+    "atlantis vulcan": [
+      "架勢MOD",
+      "深渊之火",
+      "深遠之火",
+      "近戰MOD"
+    ],
+    "auger strike": [
+      "螺鑽打擊",
+      "螺钻打击",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "blind justice": [
+      "无明制裁",
+      "架勢MOD",
+      "無明制裁",
+      "近戰MOD"
+    ],
+    "blood rush": [
+      "急进猛突",
+      "急進猛突",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "body count": [
+      "杀伤计数",
+      "殺傷計數",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "bullet dance": [
+      "刀鋒彈舞",
+      "刀锋弹舞",
+      "架勢MOD",
+      "近戰MOD"
+    ],
+    "collision force": [
+      "冲击巨力",
+      "衝擊巨力",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "condition overload": [
+      "异况超量",
+      "異況超量",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "crushing ruin": [
+      "月落乌啼",
+      "月落鳥啼",
+      "架勢MOD",
+      "近戰MOD"
+    ],
+    "defiled snapdragon": [
+      "架勢MOD",
+      "积秽骁龙",
+      "積穢驍龍",
+      "近戰MOD"
+    ],
+    "drifting contact": [
+      "噩夢MOD",
+      "漂移接触",
+      "漂移接觸",
+      "近戰MOD"
+    ],
+    "eleventh storm": [
+      "架勢MOD",
+      "終焉風暴",
+      "终焉风暴",
+      "近戰MOD"
+    ],
+    "enduring affliction": [
+      "近戰MOD",
+      "通常MOD",
+      "長時苦難",
+      "长时苦难"
+    ],
+    "enduring strike": [
+      "不朽打击",
+      "不朽打擊",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "fever strike": [
+      "热病打击",
+      "熱病打擊",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "focused defense": [
+      "近戰MOD",
+      "通常MOD",
+      "重点防御",
+      "重點防禦"
+    ],
+    "gaia's tragedy": [
+      "架勢MOD",
+      "母神悲歌",
+      "近戰MOD"
+    ],
+    "gnashing payara": [
+      "架勢MOD",
+      "狼魚咬咬",
+      "狼鱼咬咬",
+      "近戰MOD"
+    ],
+    "guardian derision": [
+      "奚落守護",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "healing return": [
+      "治愈归复",
+      "治癒歸復",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "high noon": [
+      "日正當中",
+      "架勢MOD",
+      "正午",
+      "近戰MOD"
+    ],
+    "homing fang": [
+      "架勢MOD",
+      "近戰MOD",
+      "连牙追袭",
+      "連牙追襲"
+    ],
+    "hunter's bonesaw": [
+      "專屬MOD",
+      "猎人骨锯",
+      "獵人骨鋸",
+      "近戰MOD"
+    ],
+    "lasting sting": [
+      "未完之刺",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "maiming strike": [
+      "致残突击",
+      "致殘突擊",
+      "近戰MOD",
+      "追猎者MOD"
+    ],
+    "melee prowess": [
+      "近戰MOD",
+      "通常MOD",
+      "非凡技巧"
+    ],
+    "relentless combination": [
+      "残酷組合",
+      "殘酷組合",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "smite corpus": [
+      "毀滅Corpus",
+      "毁灭Corpus",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "毁灭 corpus": [
+      "毀滅Corpus",
+      "毁灭Corpus",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "毀滅 corpus": [
+      "毀滅Corpus",
+      "毁灭Corpus",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "smite grineer": [
+      "毀滅Grineer",
+      "毁灭Grineer",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "毁灭 grineer": [
+      "毀滅Grineer",
+      "毁灭Grineer",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "毀滅 grineer": [
+      "毀滅Grineer",
+      "毁灭Grineer",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "smite infested": [
+      "毀滅Infested",
+      "毁灭Infested",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "毁灭 infested": [
+      "毀滅Infested",
+      "毁灭Infested",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "毀滅 infested": [
+      "毀滅Infested",
+      "毁灭Infested",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "sovereign outcast": [
+      "架勢MOD",
+      "至尊浪人",
+      "近戰MOD"
+    ],
+    "spinning needle": [
+      "旋压刺针",
+      "旋壓刺針",
+      "架勢MOD",
+      "近戰MOD"
+    ],
+    "vengeful revenant": [
+      "复仇亡灵",
+      "復仇亡靈",
+      "架勢MOD",
+      "近戰MOD"
+    ],
+    "vermillion storm": [
+      "朱紅暴風",
+      "朱红暴风",
+      "架勢MOD",
+      "近戰MOD"
+    ],
+    "vulcan blitz": [
+      "專屬MOD",
+      "火神閃擊",
+      "火神闪击",
+      "近戰MOD"
+    ],
+    "weeping wounds": [
+      "创口溃烂",
+      "創口潰爛",
+      "近戰MOD",
+      "通常MOD"
+    ],
+    "afterburner": [
+      "加力燃烧",
+      "加力燃燒",
+      "反曲翼MOD",
+      "空戰MOD"
+    ],
+    "astral autopsy": [
+      "星界剖解",
+      "星體解析",
+      "空戰MOD",
+      "近戰MOD"
+    ],
+    "astral slash": [
+      "星体切砍",
+      "星體切砍",
+      "空戰MOD",
+      "近戰MOD"
+    ],
+    "cold snap": [
+      "反曲翼MOD",
+      "寒流來襲",
+      "寒流来袭",
+      "空戰MOD"
+    ],
+    "comet blast": [
+      "主武器MOD",
+      "彗星爆发",
+      "彗星爆發",
+      "空戰MOD"
+    ],
+    "cutting edge": [
+      "切割刃緣",
+      "切割刃缘",
+      "空戰MOD",
+      "近戰MOD"
+    ],
+    "hollowed bullets": [
+      "中空子弹",
+      "中空子彈",
+      "主武器MOD",
+      "空戰MOD"
+    ],
+    "magazine extension": [
+      "主武器MOD",
+      "扩充弹匣",
+      "擴充彈匣",
+      "空戰MOD"
+    ],
+    "morphic transformer": [
+      "反曲翼MOD",
+      "空戰MOD",
+      "非晶变压器",
+      "非晶變壓器"
+    ],
+    "nebula bore": [
+      "星云钻孔",
+      "星雲鑽孔",
+      "空戰MOD",
+      "近戰MOD"
+    ],
+    "quasar drill": [
+      "主武器MOD",
+      "空戰MOD",
+      "类星钻体",
+      "類星鑽體"
+    ],
+    "rubedo-lined barrel": [
+      "主武器MOD",
+      "空戰MOD",
+      "紅晶槍管",
+      "红晶枪管"
+    ],
+    "system reroute": [
+      "反曲翼MOD",
+      "空戰MOD",
+      "系統重劃",
+      "系统重划"
+    ],
+    "tempered blade": [
+      "強化刀片",
+      "强化刀片",
+      "空戰MOD",
+      "近戰MOD"
+    ],
+    "zodiac shred": [
+      "主武器MOD",
+      "空戰MOD",
+      "黃道碎裂",
+      "黄道碎裂"
+    ],
+    "aero agility": [
+      "空飛靈巧",
+      "空飞灵巧",
+      "組合MOD"
+    ],
+    "aero periphery": [
+      "空飛邊際",
+      "空飞边际",
+      "組合MOD"
+    ],
+    "aero vantage": [
+      "空飛俯瞰",
+      "空飞俯瞰",
+      "組合MOD"
+    ],
+    "augur accord": [
+      "組合MOD",
+      "預言協約",
+      "预言协约"
+    ],
+    "augur message": [
+      "組合MOD",
+      "預言啟示",
+      "预言启示"
+    ],
+    "augur pact": [
+      "組合MOD",
+      "預言契約",
+      "预言契约"
+    ],
+    "augur reach": [
+      "組合MOD",
+      "預言通靈",
+      "预言通灵"
+    ],
+    "augur secrets": [
+      "組合MOD",
+      "預言神密",
+      "预言神密"
+    ],
+    "augur seeker": [
+      "組合MOD",
+      "預言探求",
+      "预言探求"
+    ],
+    "gladiator aegis": [
+      "組合MOD",
+      "角斗士圣盾",
+      "角鬥士聖盾"
+    ],
+    "gladiator finesse": [
+      "組合MOD",
+      "角斗士灵巧",
+      "角鬥士靈巧"
+    ],
+    "gladiator might": [
+      "組合MOD",
+      "角斗士威猛",
+      "角鬥士威猛"
+    ],
+    "gladiator resolve": [
+      "組合MOD",
+      "角斗士决心",
+      "角鬥士決心"
+    ],
+    "gladiator rush": [
+      "組合MOD",
+      "角斗士猛突",
+      "角鬥士猛突"
+    ],
+    "gladiator vice": [
+      "組合MOD",
+      "角斗士钳制",
+      "角鬥士箝制"
+    ],
+    "hunter adrenaline": [
+      "猎人肾上腺素",
+      "獵者腎上腺素",
+      "組合MOD"
+    ],
+    "hunter command": [
+      "猎人命令",
+      "獵者命令",
+      "組合MOD"
+    ],
+    "hunter munitions": [
+      "猎人战备",
+      "獵者戰備",
+      "組合MOD"
+    ],
+    "hunter recovery": [
+      "猎人复元",
+      "獵者復元",
+      "組合MOD"
+    ],
+    "hunter synergy": [
+      "猎人协力",
+      "獵者協力",
+      "組合MOD"
+    ],
+    "hunter track": [
+      "猎人追踪",
+      "獵者追蹤",
+      "組合MOD"
+    ],
+    "mecha empowered": [
+      "机甲强化",
+      "機甲強化",
+      "組合MOD"
+    ],
+    "mecha overdrive": [
+      "机甲超载",
+      "機甲超載",
+      "組合MOD"
+    ],
+    "mecha pulse": [
+      "机甲脉冲",
+      "機甲脈衝",
+      "組合MOD"
+    ],
+    "mecha recharge": [
+      "机甲充能",
+      "機甲充能",
+      "組合MOD"
+    ],
+    "motus impact": [
+      "組合MOD",
+      "跃动冲击",
+      "躍動衝擊"
+    ],
+    "motus setup": [
+      "組合MOD",
+      "跃动设局",
+      "躍動設局"
+    ],
+    "motus signal": [
+      "組合MOD",
+      "跃动信号",
+      "躍動信號"
+    ],
+    "proton jet": [
+      "組合MOD",
+      "質子噴射",
+      "质子喷射"
+    ],
+    "proton pulse": [
+      "組合MOD",
+      "質子脈衝",
+      "质子脉动"
+    ],
+    "proton snap": [
+      "組合MOD",
+      "質子吸附",
+      "质子猛扑"
+    ],
+    "strain consume": [
+      "組合MOD",
+      "菌株吸收"
+    ],
+    "strain eruption": [
+      "組合MOD",
+      "菌株爆裂"
+    ],
+    "strain fever": [
+      "組合MOD",
+      "菌株热毒",
+      "菌株病毒"
+    ],
+    "strain infection": [
+      "組合MOD",
+      "菌株感染"
+    ],
+    "synth charge": [
+      "合成充能",
+      "組合MOD"
+    ],
+    "synth deconstruct": [
+      "合成解构",
+      "合成解構",
+      "組合MOD"
+    ],
+    "synth fiber": [
+      "合成纖維",
+      "合成纤维",
+      "組合MOD"
+    ],
+    "synth reflex": [
+      "合成反射",
+      "組合MOD"
+    ],
+    "tek assault": [
+      "技法猛袭",
+      "技法猛襲",
+      "組合MOD"
+    ],
+    "tek collateral": [
+      "技法连带",
+      "技法連帶",
+      "組合MOD"
+    ],
+    "tek enhance": [
+      "技法強化",
+      "技法强化",
+      "組合MOD"
+    ],
+    "tek gravity": [
+      "技法引力",
+      "組合MOD"
+    ],
+    "vigilante armaments": [
+      "私法军备",
+      "私法軍備",
+      "組合MOD"
+    ],
+    "vigilante fervor": [
+      "私法热诚",
+      "私法熱誠",
+      "組合MOD"
+    ],
+    "vigilante offense": [
+      "私法侵犯",
+      "組合MOD"
+    ],
+    "vigilante pursuit": [
+      "私法追求",
+      "私法追踪",
+      "組合MOD"
+    ],
+    "vigilante supplies": [
+      "私法补给",
+      "私法補給",
+      "組合MOD"
+    ],
+    "vigilante vigor": [
+      "私法活力",
+      "組合MOD"
+    ],
+    "necramech continuity": [
+      "亡骸機甲MOD",
+      "亡骸機甲_持久力",
+      "殁世机甲_持久力"
+    ],
+    "necramech vitality": [
+      "亡骸機甲MOD",
+      "亡骸機甲_生命力",
+      "殁世机甲_生命力"
+    ],
+    "necramech steel fiber": [
+      "亡骸機甲MOD",
+      "亡骸機甲_鋼鐵纖維",
+      "殁世机甲_钢铁纤维"
+    ],
+    "necramech intensify": [
+      "亡骸機甲MOD",
+      "亡骸機甲_聚精會神",
+      "殁世机甲_聚精会神"
+    ],
+    "necramech pressure point": [
+      "亡骸機甲MOD",
+      "亡骸機甲_壓迫點",
+      "殁世机甲_压迫点"
+    ],
+    "necramech streamline": [
+      "亡骸機甲MOD",
+      "亡骸機甲_簡化",
+      "殁世机甲_简化"
+    ],
+    "necramech reach": [
+      "亡骸機甲MOD",
+      "亡骸機甲_劍風",
+      "殁世机甲_剑风"
+    ],
+    "necramech deflection": [
+      "亡骸機甲MOD",
+      "亡骸機甲_蓄能重劃",
+      "殁世机甲_充能"
+    ],
+    "necramech slipstream": [
+      "亡骸機甲MOD",
+      "亡骸機甲_氣流動",
+      "殁世机甲_滑流"
+    ],
+    "necramech seismic wave": [
+      "亡骸機甲MOD",
+      "亡骸機甲_震波",
+      "殁世机甲_震波"
+    ],
+    "necramech refuel": [
+      "亡骸機甲MOD",
+      "亡骸機甲_燃料補給",
+      "殁世机甲_燃料补给"
+    ],
+    "necramech thrusters": [
+      "亡骸機甲MOD",
+      "亡骸機甲_推進器",
+      "殁世机甲_推进器"
+    ]
+  }
+}

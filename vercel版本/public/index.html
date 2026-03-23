@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warframe 垃圾查询 - Vercel版</title>
+    <style>
+      body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; background: #0f172a; color: #e2e8f0; }
+      .wrap { max-width: 1080px; margin: 0 auto; padding: 20px; }
+      h1 { margin: 0 0 8px; font-size: 24px; }
+      .muted { color: #94a3b8; margin-bottom: 16px; }
+      .card { background: #111827; border: 1px solid #1f2937; border-radius: 12px; padding: 16px; margin-bottom: 14px; }
+      label { display: block; margin-bottom: 6px; color: #cbd5e1; }
+      input, textarea, select, button { width: 100%; box-sizing: border-box; border-radius: 8px; border: 1px solid #334155; background: #0b1220; color: #e2e8f0; padding: 10px; }
+      textarea { min-height: 100px; resize: vertical; }
+      .row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+      .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+      button { cursor: pointer; background: #1d4ed8; border: none; }
+      button.secondary { background: #475569; }
+      button:disabled { opacity: 0.6; cursor: not-allowed; }
+      table { width: 100%; border-collapse: collapse; font-size: 13px; }
+      th, td { border-bottom: 1px solid #1f2937; text-align: left; padding: 8px 6px; }
+      th { color: #93c5fd; }
+      .error { color: #fca5a5; }
+      .ok { color: #86efac; }
+      @media (max-width: 900px) { .row { grid-template-columns: 1fr 1fr; } }
+      @media (max-width: 560px) { .row, .actions { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Warframe 垃圾查询（Vercel版）</h1>
+      <div id="health" class="muted">正在检查服务状态...</div>
+
+      <div class="card">
+        <label for="queries">查询词（支持单条/批量，每行一个）</label>
+        <textarea id="queries" placeholder="例如：
+Lavos Prime 机体蓝图
+Khora Prime 系统蓝图"></textarea>
+
+        <div class="row" style="margin-top: 10px;">
+          <div>
+            <label for="mode">模式</label>
+            <select id="mode">
+              <option value="contains">contains</option>
+              <option value="exact">exact</option>
+            </select>
+          </div>
+          <div>
+            <label for="threshold">阈值</label>
+            <input id="threshold" type="number" step="0.1" value="10" />
+          </div>
+          <div>
+            <label for="top">Top N</label>
+            <input id="top" type="number" value="20" />
+          </div>
+          <div>
+            <label for="sampleSize">取样卖单数</label>
+            <input id="sampleSize" type="number" value="5" />
+          </div>
+        </div>
+
+        <div class="actions">
+          <button id="searchBtn">开始查询</button>
+          <button id="clearBtn" class="secondary">清空结果</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <label for="ocrImage">OCR 图片识别查询（可选）</label>
+        <input id="ocrImage" type="file" accept="image/*" />
+        <div class="actions">
+          <button id="ocrBtn">上传图片并识别</button>
+          <button id="downloadBtn" class="secondary">下载 CSV</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div id="status" class="muted">等待操作</div>
+        <div style="overflow:auto; max-height: 56vh;">
+          <table>
+            <thead>
+              <tr>
+                <th>来源</th>
+                <th>物品名</th>
+                <th>Slug</th>
+                <th>Ducats</th>
+                <th>均价</th>
+                <th>锌价比</th>
+                <th>数量</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const healthEl = document.getElementById('health');
+      const statusEl = document.getElementById('status');
+      const rowsEl = document.getElementById('rows');
+      const searchBtn = document.getElementById('searchBtn');
+      const clearBtn = document.getElementById('clearBtn');
+      const ocrBtn = document.getElementById('ocrBtn');
+      const downloadBtn = document.getElementById('downloadBtn');
+
+      let lastRows = [];
+
+      function setStatus(msg, ok = true) {
+        statusEl.className = ok ? 'ok' : 'error';
+        statusEl.textContent = msg;
+      }
+
+      function renderRows(items, sourceType) {
+        lastRows = items;
+        rowsEl.innerHTML = '';
+        for (const it of items) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${sourceType === 'ocr' ? 'OCR' : (it.source_query || '-')}</td>
+            <td>${it.matched_name || it.item_name || '-'}</td>
+            <td>${it.url_name || '-'}</td>
+            <td>${it.ducats ?? '-'}</td>
+            <td>${typeof it.average_price === 'number' ? it.average_price.toFixed(2) : '-'}</td>
+            <td>${typeof it.ratio === 'number' ? it.ratio.toFixed(2) : '-'}</td>
+            <td>${it.count ?? '-'}</td>
+          `;
+          rowsEl.appendChild(tr);
+        }
+      }
+
+      function toCsv(rows) {
+        const headers = ['source', 'item_name', 'url_name', 'ducats', 'average_price', 'ratio', 'count'];
+        const lines = [headers.join(',')];
+        for (const r of rows) {
+          const record = [
+            r.source_query || 'OCR',
+            (r.matched_name || r.item_name || '').replaceAll(',', ' '),
+            r.url_name || '',
+            r.ducats ?? '',
+            typeof r.average_price === 'number' ? r.average_price.toFixed(2) : '',
+            typeof r.ratio === 'number' ? r.ratio.toFixed(2) : '',
+            r.count ?? '',
+          ];
+          lines.push(record.join(','));
+        }
+        return lines.join('\n');
+      }
+
+      async function checkHealth() {
+        try {
+          const res = await fetch('/api/health');
+          const data = await res.json();
+          if (data.ok) {
+            healthEl.textContent = `服务正常 | 物品库 ${data.catalog_size} 条 | 更新时间 ${data.catalog_updated_at || 'unknown'}`;
+            healthEl.className = 'ok';
+          } else {
+            healthEl.textContent = '服务状态异常';
+            healthEl.className = 'error';
+          }
+        } catch (err) {
+          healthEl.textContent = `健康检查失败: ${err.message}`;
+          healthEl.className = 'error';
+        }
+      }
+
+      searchBtn.addEventListener('click', async () => {
+        searchBtn.disabled = true;
+        try {
+          const queries = document.getElementById('queries').value
+            .split(/\r?\n/)
+            .map(x => x.trim())
+            .filter(Boolean);
+
+          const payload = {
+            queries,
+            mode: document.getElementById('mode').value,
+            threshold: Number(document.getElementById('threshold').value || 10),
+            top: Number(document.getElementById('top').value || 20),
+            sample_size: Number(document.getElementById('sampleSize').value || 5),
+          };
+
+          const res = await fetch('/api/search', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
+          });
+          const data = await res.json();
+          if (!res.ok || !data.ok) {
+            throw new Error(data.error || `HTTP ${res.status}`);
+          }
+
+          renderRows(data.items || [], 'search');
+          setStatus(`查询完成：${data.count || 0} 条结果`, true);
+        } catch (err) {
+          setStatus(`查询失败: ${err.message}`, false);
+        } finally {
+          searchBtn.disabled = false;
+        }
+      });
+
+      ocrBtn.addEventListener('click', async () => {
+        const file = document.getElementById('ocrImage').files[0];
+        if (!file) {
+          setStatus('请先选择图片文件', false);
+          return;
+        }
+
+        ocrBtn.disabled = true;
+        try {
+          const form = new FormData();
+          form.append('image', file);
+          form.append('threshold', document.getElementById('threshold').value || '10');
+          form.append('top', document.getElementById('top').value || '20');
+          form.append('sample_size', document.getElementById('sampleSize').value || '5');
+          form.append('ocr_engine', 'auto');
+
+          const res = await fetch('/api/ocr', { method: 'POST', body: form });
+          const data = await res.json();
+          if (!res.ok || !data.ok) {
+            throw new Error(data.error || `HTTP ${res.status}`);
+          }
+
+          renderRows(data.items || [], 'ocr');
+          setStatus(`OCR 完成：${data.count || 0} 条结果`, true);
+        } catch (err) {
+          setStatus(`OCR 失败: ${err.message}`, false);
+        } finally {
+          ocrBtn.disabled = false;
+        }
+      });
+
+      clearBtn.addEventListener('click', () => {
+        lastRows = [];
+        rowsEl.innerHTML = '';
+        setStatus('已清空结果', true);
+      });
+
+      downloadBtn.addEventListener('click', () => {
+        if (!lastRows.length) {
+          setStatus('没有可下载的数据', false);
+          return;
+        }
+
+        const blob = new Blob([toCsv(lastRows)], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `junk_results_${Date.now()}.csv`;
+        a.click();
+        URL.revokeObjectURL(url);
+      });
+
+      checkHealth();
+    </script>
+  </body>
+</html>
+
