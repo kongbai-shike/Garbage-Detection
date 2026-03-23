@@ -96,6 +96,7 @@ Khora Prime 系统蓝图"></textarea>
       </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
     <script>
       const healthEl = document.getElementById('health');
       const statusEl = document.getElementById('status');
@@ -146,6 +147,42 @@ Khora Prime 系统蓝图"></textarea>
           lines.push(record.join(','));
         }
         return lines.join('\n');
+      }
+
+      function shouldFallbackToClientOcr(errorText) {
+        const normalized = String(errorText || '').toLowerCase();
+        return normalized.includes('未安装') || normalized.includes('install') || normalized.includes('ocr 初始化失败');
+      }
+
+      async function runClientOcrAndSearch(file) {
+        if (!window.Tesseract || typeof window.Tesseract.recognize !== 'function') {
+          throw new Error('浏览器 OCR 组件加载失败，请刷新页面重试');
+        }
+
+        setStatus('服务端 OCR 不可用，正在切换浏览器 OCR（首次会较慢）...', true);
+        const result = await window.Tesseract.recognize(file, 'chi_sim+eng');
+        const recognizedText = (result && result.data && result.data.text) ? result.data.text : '';
+        if (!recognizedText.trim()) {
+          throw new Error('浏览器 OCR 没有识别到可用文本');
+        }
+
+        const payload = {
+          text: recognizedText,
+          threshold: Number(document.getElementById('threshold').value || 10),
+          top: Number(document.getElementById('top').value || 20),
+          sample_size: Number(document.getElementById('sampleSize').value || 5),
+        };
+
+        const res = await fetch('/api/ocr-text', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json();
+        if (!res.ok || !data.ok) {
+          throw new Error(data.error || `HTTP ${res.status}`);
+        }
+        return data;
       }
 
       async function checkHealth() {
@@ -219,7 +256,14 @@ Khora Prime 系统蓝图"></textarea>
           const res = await fetch('/api/ocr', { method: 'POST', body: form });
           const data = await res.json();
           if (!res.ok || !data.ok) {
-            throw new Error(data.error || `HTTP ${res.status}`);
+            const errText = data.error || `HTTP ${res.status}`;
+            if (shouldFallbackToClientOcr(errText)) {
+              const fallbackData = await runClientOcrAndSearch(file);
+              renderRows(fallbackData.items || [], 'ocr');
+              setStatus(`OCR 完成（浏览器 OCR 回退）：${fallbackData.count || 0} 条结果`, true);
+              return;
+            }
+            throw new Error(errText);
           }
 
           renderRows(data.items || [], 'ocr');

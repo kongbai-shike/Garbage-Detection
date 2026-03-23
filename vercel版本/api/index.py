@@ -11,12 +11,84 @@ if str(ROOT_DIR) not in sys.path:
 
 from analyzer import find_high_ratio_items  # noqa: E402
 from item_catalog import load_catalog, refresh_catalog, resolve_catalog_item  # noqa: E402
-from ocr_pipeline import find_junk_from_image  # noqa: E402
+from ocr_pipeline import find_junk_from_image, parse_recognized_items  # noqa: E402
 from query_input import parse_queries_text  # noqa: E402
 from wfm_client import WFMClient  # noqa: E402
 
 app = Flask(__name__, static_folder=str(ROOT_DIR / "public"), static_url_path="")
 client = WFMClient()
+
+
+def _pick_display_name(item) -> str:
+    for alias in item.aliases:
+        if any("\u4e00" <= ch <= "\u9fff" for ch in alias):
+            cleaned = " ".join(alias.split())
+            if cleaned:
+                return f"{cleaned} / {item.item_name}"
+    return item.item_name
+
+
+def _search_from_recognized_map(recognized, threshold: float, top: int, sample_size: int, debug: bool = False):
+    catalog_items, catalog_updated_at = load_catalog()
+    aggregated = {}
+    matched_queries = 0
+    skipped_unknown = 0
+
+    for query, count in recognized.items():
+        resolved_query = query
+        resolved_mode = "contains"
+        matched_item = resolve_catalog_item(query, catalog_items)
+        matched_name = ""
+        if matched_item is not None:
+            resolved_query = matched_item.url_name
+            resolved_mode = "exact"
+            matched_name = _pick_display_name(matched_item)
+        elif catalog_items:
+            skipped_unknown += 1
+            continue
+
+        rows, info = find_high_ratio_items(
+            query=resolved_query,
+            mode=resolved_mode,
+            threshold=threshold,
+            top=max(1, top),
+            sample_size=sample_size,
+            debug=debug,
+            client=client,
+        )
+        if info.get("matched_count", 0) == 0 or not rows:
+            continue
+
+        matched_queries += 1
+        row = rows[0]
+        if row.url_name in aggregated:
+            aggregated[row.url_name]["count"] += int(count)
+            continue
+
+        aggregated[row.url_name] = {
+            "recognized_name": query,
+            "matched_name": matched_name or row.item_name,
+            "url_name": row.url_name,
+            "count": int(count),
+            "ducats": row.ducats,
+            "average_price": row.average_price,
+            "ratio": row.ratio,
+        }
+
+    items = sorted(aggregated.values(), key=lambda r: r["ratio"], reverse=True)
+    if top > 0:
+        items = items[:top]
+
+    info = {
+        "ocr_engine": "text",
+        "ocr_line_count": len(recognized),
+        "recognized_count": len(recognized),
+        "matched_query_count": matched_queries,
+        "skipped_unknown_count": skipped_unknown,
+        "catalog_size": len(catalog_items),
+        "catalog_updated_at": catalog_updated_at,
+    }
+    return items, info
 
 
 def _to_float(value, default):
@@ -199,6 +271,30 @@ def ocr_search():
     ]
 
     return jsonify({"ok": True, "count": len(results), "items": results, "info": info})
+
+
+@app.post("/api/ocr-text")
+def ocr_text_search():
+    payload = request.get_json(silent=True) or {}
+    text = str(payload.get("text", "") or "")
+    if not text.strip():
+        return jsonify({"ok": False, "error": "text is required"}), 400
+
+    threshold = _to_float(payload.get("threshold", 10.0), 10.0)
+    top = max(1, _to_int(payload.get("top", 20), 20))
+    sample_size = max(1, _to_int(payload.get("sample_size", 5), 5))
+    debug = bool(payload.get("debug", False))
+
+    lines = [line.strip() for line in text.replace("\r", "\n").split("\n") if line.strip()]
+    recognized = parse_recognized_items(lines)
+    items, info = _search_from_recognized_map(
+        recognized=recognized,
+        threshold=threshold,
+        top=top,
+        sample_size=sample_size,
+        debug=debug,
+    )
+    return jsonify({"ok": True, "count": len(items), "items": items, "info": info})
 
 
 @app.post("/api/catalog/refresh")

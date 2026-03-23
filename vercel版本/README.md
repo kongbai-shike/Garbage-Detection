@@ -4,7 +4,7 @@
 
 - 单条/批量查询（exact/contains）
 - 目录匹配（`items_catalog.json` + 别名）
-- OCR 图片识别查询（`/api/ocr`，默认 `auto`）
+- OCR 图片识别查询（优先 `/api/ocr`；依赖缺失时自动回退浏览器 OCR + `/api/ocr-text`）
 - CSV 下载（前端本地导出）
 
 ## 目录结构
@@ -39,6 +39,7 @@ python -m flask --app api/index.py run --port 8000
 - `GET /api/health`
 - `POST /api/search`
 - `POST /api/ocr` (form-data, key: `image`)
+- `POST /api/ocr-text` (json, key: `text`)
 
 示例 `POST /api/search` 请求体：
 
@@ -56,4 +57,5 @@ python -m flask --app api/index.py run --port 8000
 
 - Vercel 文件系统是临时的，在线刷新目录写盘不是推荐方式。
 - 建议在本地先更新 `items_catalog.json` 后再部署。
+- 若 Vercel 未安装 OCR Python 依赖，前端会自动使用浏览器 OCR（首次识别会下载语言包，速度较慢）。
 
